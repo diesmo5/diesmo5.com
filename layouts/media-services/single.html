@@ -1,0 +1,107 @@
+{{define "main"}}
+<!--  -->
+<main>
+{{ partial "diesmo5mediaNav" }}
+
+  <section class="h-100vh">
+    <div class="container text-work-sans">
+      <h1 class="font-weight-bold text-uppercase pt-40">{{.Title}}</h1>
+      <h3 class="font-weight-normal">
+        {{.Description}}
+      </h3>
+    </div>
+  </section>
+  <section class="bg-graphite py-5">
+    <div class="container text-work-sans py-5">
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 m-auto">
+          <img
+            src="{{ .Params.sectionOneImage }}"
+            alt="{{ .Params.sectionOneImageAlt }}"
+            class="w-100"
+          />
+        </div>
+        <div class="col-lg-6 col-md-6 py-4 m-auto text-white">
+          <h2 class="font-weight-bold">{{ .Params.sectionOneTitle }}</h2>
+          <h5 class="font-weight-normal">
+            {{ .Params.sectionOneDescription }}
+          </h5>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 m-auto">
+          <img
+            src="{{ .Params.sectionTwoImage }}"
+            alt="{{ .Params.sectionTwoImageAlt }}"
+            class="w-100"
+          />
+        </div>
+        <div class="col-lg-6 col-md-6 py-4 m-auto text-white">
+          <h2 class="font-weight-bold">{{ .Params.sectionTwoTitle }}</h2>
+          <h5 class="font-weight-normal">
+            {{ .Params.sectionTwoDescription }}
+          </h5>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 m-auto">
+          <img
+            src="{{ .Params.sectionThreeImage }}"
+            alt="{{ .Params.sectionThreeImageAlt }}"
+            class="w-100"
+          />
+        </div>
+        <div class="col-lg-6 col-md-6 py-4 m-auto text-white">
+          <h2 class="font-weight-bold">{{ .Params.sectionThreeTitle }}</h2>
+          <h5 class="font-weight-normal">
+            {{ .Params.sectionThreeDescription }}
+          </h5>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 m-auto">
+          <img
+            src="{{ .Params.sectionFourImage }}"
+            alt="{{ .Params.sectionFourImageAlt }}"
+            class="w-100"
+          />
+        </div>
+        <div class="col-lg-6 col-md-6 py-4 m-auto text-white">
+          <h2 class="font-weight-bold">{{ .Params.sectionFourTitle }}</h2>
+          <h5 class="font-weight-normal">
+            {{ .Params.sectionFourDescription }}
+          </h5>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 m-auto">
+          <img
+            src="{{ .Params.sectionFiveImage }}"
+            alt="{{ .Params.sectionFiveImageAlt }}"
+            class="w-100"
+          />
+        </div>
+        <div class="col-lg-6 col-md-6 py-4 m-auto text-white">
+          <h2 class="font-weight-bold">{{ .Params.sectionFiveTitle }}</h2>
+          <h5 class="font-weight-normal">
+            {{ .Params.sectionFiveDescription }}
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="h-50vh">
+    <div class="text-work-sans text-center">
+      <h2 class="font-weight-bold pt-15 pb-4">LET'S MAKE SOMETHING TOGETHER</h2>
+      <a
+        href="/media-services-contact"
+        class="btn btn-graphite rounded-0 px-5 py-3"
+        >CONTACT US</a
+      >
+    </div>
+  </section>
+
+  {{ partial "diesmo5mediaFooter" }}
+</main>
+
+{{ end }}

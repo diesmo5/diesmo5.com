@@ -1,0 +1,58 @@
+{{ define "main" }}
+<!-- MAIN START -->
+<main>
+  {{ partial "diesmo5mediaNav" }}
+
+  <section class="h-100vh">
+    <div class="container text-work-sans">
+      <h1 class="font-weight-bold pt-40">WHAT WE DO</h1>
+      <h3 class="font-weight-normal">
+        We create effective strategies, powerful identities, seamless
+        interactions, and memorable experiences to connect people to brands and
+        organizations.
+      </h3>
+    </div>
+  </section>
+
+  <section class="bg-graphite">
+    <div class="text-work-sans">
+      {{ range .Pages.Reverse }}
+      <div class="row">
+        <div class="col-lg-8">
+          <img
+            src="{{.Params.headerImage}}"
+            alt="{{.Params.headerImageAlt}}"
+            class="w-100"
+          />
+        </div>
+        <div class="col-lg-4 text-white my-auto p-5">
+          <h2 class="font-weight-bold text-uppercase">{{.Title}}</h2>
+          <h4 class="font-weight-normal py-3">
+            {{.Description}}
+          </h4>
+          <a href="{{.URL}}" class="text-uppercase text-white">
+            <u>
+              LEARN MORE ABOUT {{.Title}}
+            </u>
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="h-50vh">
+    <div class="text-work-sans text-center">
+      <h2 class="font-weight-bold pt-15 pb-4">LET'S MAKE SOMETHING TOGETHER</h2>
+      <a
+        href="/media-services-contact"
+        class="btn btn-graphite rounded-0 px-5 py-3"
+        >CONTACT US</a
+      >
+    </div>
+  </section>
+
+  {{ partial "diesmo5mediaFooter" }}
+</main>
+<!-- MAIN END -->
+{{ end }}

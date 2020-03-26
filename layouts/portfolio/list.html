@@ -1,0 +1,54 @@
+{{ define "main" }}
+<!--  -->
+<main>
+  {{ partial "diesmo5mediaNav" }}
+  <section class="bg-graphite text-white h-100vh">
+    <div class="container text-work-sans">
+      <h1 class="font-weight-bold pt-40">OUR PAST PROJECT</h1>
+      <h3 class="font-weight-normal">
+        We create effective strategies, powerful identities, seamless
+        interactions, and memorable experiences to connect people to brands and
+        organizations.
+      </h3>
+    </div>
+  </section>
+  {{ range .Pages }}
+  <section class="pb-5">
+    <div class="container-fluid text-work-sans p-5">
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 m-auto text-liberty-dark">
+          <a href="{{.URL}}" class="text-liberty-dark">
+            <div class="hover-zoom">
+              <img
+              src="{{ .Params.projectImage }}"
+              alt="{{ .Params.projectImageAlt }}"
+              class="w-100"
+              />
+            </div>
+            </div>
+            <div class="col-lg-6 col-md-6 py-3 m-auto">
+              <h2 class="font-weight-bold text-uppercase">{{ .Title }}</h2>
+            <h5 class="font-weight-normal ">
+              {{ .Description }}
+            </h5>
+          </a>
+            <a href="{{.URL}}" class="text-liberty-dark">Learn More ></a>
+          </div>
+        </div>
+    </div>
+  </section>
+  {{ end }}
+  <section class="h-50vh">
+    <div class="text-work-sans text-center">
+      <h2 class="font-weight-bold pt-15 pb-4">LET'S MAKE SOMETHING TOGETHER</h2>
+      <a
+        href="/media-services-contact"
+        class="btn btn-graphite rounded-0 px-5 py-3"
+        >CONTACT US</a
+        >
+      </div>
+  </section>
+  {{ partial "diesmo5mediaFooter" }}
+</main>
+
+{{ end }}

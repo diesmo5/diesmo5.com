@@ -1,0 +1,138 @@
+{{define "main"}}
+<!--  -->
+
+<main>
+  {{ partial "diesmo5mediaNav" }}
+  <section id="banner" class="">
+    <img src="{{ .Params.banner }}" alt="" class="w-100" />
+  </section>
+
+  <section id="info" class="py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 py-3">
+          <h1 class="font-weight-bold text-uppercase">{{.Title}}</h1>
+          <h6 class="font-weight-normal">{{.Description}}</h6>
+          <a
+            href="https://{{.Params.website}}"
+            target="_blank"
+            rel="none"
+            class="text-liberty-dark"
+            >Visit
+            <u>
+              {{.Params.website}}
+            </u>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 py-3">
+          <h2 class="font-weight-bold">Context</h2>
+          <h6 class="font-weight-normal">{{.Params.context}}</h6>
+        </div>
+        <div class="col-lg-4 col-md-6 py-3">
+          <h2 class="font-weight-bold">Scope of Project</h2>
+          <h6 class="font-weight-normal">{{.Params.scope}}</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 py-3">
+          <h2 class="font-weight-bold">Challenge</h2>
+          <h6 class="font-weight-normal">{{.Params.challenge}}</h6>
+        </div>
+        <div class="col-lg-4 col-md-6 py-3">
+          <h2 class="font-weight-bold">Outcome</h2>
+          <h6 class="font-weight-normal">{{.Params.outcome}}</h6>
+        </div>
+        <div class="col-lg-4 col-md-6 py-3"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="" class="">
+    <img src="{{ .Params.projectImage }}" alt="" class="w-100" />
+  </section>
+
+  <article
+    style="background-color: #{{.Params.backgroundColor}};"
+    class="text-{{.Params.textColor}} pb-5"
+  >
+    <section id="sectionOne" class="py-5">
+      <div class="container col-lg-7 py-5">
+        <h2 class="font-weight-bold">{{.Params.sectionOneTitle}}</h2>
+        <h6 class="font-weight-normal">{{.Params.sectionOneDescription}}</h6>
+      </div>
+      <div id="" class="container py-5">
+        <img
+          src="{{.Params.sectionOneImageOne}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+        <img
+          src="{{.Params.sectionOneImageTwo}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+        <img
+          src="{{.Params.sectionOneImageThree}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+        <img
+          src="{{.Params.sectionOneImageFour}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+        <img
+          src="{{.Params.sectionOneImageFive}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+      </div>
+    </section>
+    <section id="sectionTwo" class="pb-5">
+      <div class="container col-lg-7 pb-5">
+        <h2 class="font-weight-bold">{{.Params.sectionTwoTitle}}</h2>
+        <h6 class="font-weight-normal">{{.Params.sectionTwoDescription}}</h6>
+      </div>
+      <div id="" class="container py-5">
+        <img
+          src="{{.Params.sectionTwoImageOne}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+        <img
+          src="{{.Params.sectionTwoImageTwo}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+        <img
+          src="{{.Params.sectionTwoImageThree}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+        <img
+          src="{{.Params.sectionTwoImageFour}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+        <img
+          src="{{.Params.sectionTwoImageFive}}"
+          alt=""
+          class="w-100 px-lg-5"
+        />
+      </div>
+    </section>
+  </article>
+  <section class="h-50vh">
+    <div class="text-work-sans text-center">
+      <h2 class="font-weight-bold pt-15 pb-4">LET'S MAKE SOMETHING TOGETHER</h2>
+      <a
+        href="/media-services-contact"
+        class="btn btn-graphite rounded-0 px-5 py-3"
+        >CONTACT US</a
+      >
+    </div>
+  </section>
+  {{ partial "diesmo5mediaFooter" }}
+</main>
+
+{{ end }}
