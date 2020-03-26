@@ -1,7 +1,7 @@
 ---
-title: "Home"
+title: "Business Development | Websites & Logos | "
 date: 2020-03-13T21:26:34-07:00
 draft: false
-description:
+description: DIESMO5 is a parent company to multiple private equities like DIESMO5 MEDIA and STADIUM EIGHT.
 ---
 

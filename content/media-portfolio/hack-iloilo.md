@@ -2,7 +2,7 @@
 title: "Hack Iloilo"
 date: 2020-03-23T17:45:59-07:00
 draft: false
-description: We helped Hack Iloilo build brand identity and establish a digital presence
+description: We helped Hack Iloilo build brand identity and establish a digital presence.
 
 website: hackiloilo.com
 
