@@ -10,17 +10,20 @@ body {
 /* .text-cormorant-garamond {
   font-family: "Cormorant Garamond", serif;
 } */
-.text-montserrat {
+.font-montserrat {
   font-family: "Montserrat", serif;
 }
-.text-raleway {
+.font-raleway {
   font-family: "Raleway", serif;
 }
-.text-work-sans {
+.font-work-sans {
   font-family: "Work Sans", sans-serif;
 }
 
 .text-golden {
+  color: #be8900;
+}
+.text-golden:hover {
   color: #be8900;
 }
 .text-liberty-dark {

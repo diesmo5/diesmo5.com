@@ -1,66 +1,67 @@
 {{ define "main" }}
 <!--  -->
-{{ partial "stadiumeightNav" }}
+<main class="font-raleway">
+  {{ partial "stadiumeightNav" }}
 
-<section class="h-100vh">
-  <div class="container pt-20">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 my-auto">
-        <img
-          src="../../assets/stadiumeight/stadiumeightlogo-200x200.png"
-          alt=""
-          class="w-100"
-        />
-      </div>
-      <div class="col-lg-6 col-md-6 my-auto">
-        <h1 class="font-weight-bold text-golden">Listen to our podcast</h1>
-        <h3 class="font-weight-light text-golden pt-2 pb-3">
-          Coming soon to spotify, youtube, and apple podcast.
-        </h3>
-
-        <!-- Begin Mailchimp Signup Form -->
-        <div id="mc_embed_signup">
-          <form
-            action="https://diesmo5.us5.list-manage.com/subscribe/post?u=a0f3186838415a0e37a8dc337&amp;id=8f77cd9a30"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="validate"
-            target="_blank"
-            novalidate
-          >
-            <div id="mc_embed_signup_scroll">
-              <input
-                type="email"
-                value=""
-                name="EMAIL"
-                class="btn btn-block border text-left p-3"
-                id="mce-EMAIL"
-                placeholder="email address"
-                required
-              />
-              <div class="py-2"></div>
-              <div class="clear">
-                <input
-                  type="submit"
-                  value="Sign Up for Notifications"
-                  name="subscribe"
-                  id="mc-embedded-subscribe"
-                  class="btn btn-block btn-golden p-3"
-                />
-              </div>
-            </div>
-          </form>
+  <section class="h-100vh">
+    <div class="container pt-20">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 my-auto">
+          <img
+            src="../../assets/stadiumeight/stadiumeightlogo-200x200.png"
+            alt=""
+            class="w-100"
+          />
         </div>
-        <!--End mc_embed_signup-->
+        <div class="col-lg-6 col-md-6 my-auto">
+          <h1 class="font-weight-bold text-golden">Listen to our podcast</h1>
+          <h3 class="font-weight-light text-golden pt-2 pb-3">
+            Coming soon to spotify, youtube, and apple podcast.
+          </h3>
 
-        <h6 class="font-weight-normal pt-3">
-          Sign up to be notified when we upload our first episode. After that,
-          you’ll only be notified if you subscribe to the podcast.
-        </h6>
+          <!-- Begin Mailchimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form
+              action="https://diesmo5.us5.list-manage.com/subscribe/post?u=a0f3186838415a0e37a8dc337&amp;id=8f77cd9a30"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate"
+              target="_blank"
+              novalidate
+            >
+              <div id="mc_embed_signup_scroll">
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="btn btn-block border text-left p-3"
+                  id="mce-EMAIL"
+                  placeholder="email address"
+                  required
+                />
+                <div class="py-2"></div>
+                <div class="clear">
+                  <input
+                    type="submit"
+                    value="Sign Up for Notifications"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="btn btn-block btn-golden p-3"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+
+          <h6 class="font-weight-normal pt-3">
+            Sign up to be notified when we upload our first episode. After that,
+            you’ll only be notified if you subscribe to the podcast.
+          </h6>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
+</main>
 {{ end }}
