@@ -28,14 +28,5 @@ sectionOneImageTwo: ../../assets/portfolio/hack-iloilo/section-one-image-two-150
 sectionOneImageThree: ../../assets/portfolio/hack-iloilo/section-one-image-three-1500x1000.jpg
 sectionOneImageFour: ../../assets/portfolio/hack-iloilo/section-one-image-four-1500x1000.jpg
 sectionOneImageFive: ../../assets/portfolio/hack-iloilo/section-one-image-five-1500x1000.jpg
-
-sectionTwoTitle: Improving the form of education in the Philippines
-sectionTwoDescription: Hack Iloilo is a hackathon based in Iloilo City, Philippines open to university students and professionals that aims to inspire the Filipino community to leverage their knowledge and skills to build digital projects/companies that will better the livlihood in the Philippines.
-
-sectionTwoImageOne: ../../assets/portfolio/hack-iloilo/section-one-image-one-1500x1000.jpg
-sectionTwoImageTwo: ../../assets/portfolio/hack-iloilo/section-one-image-two-1500x1000.jpg
-sectionTwoImageThree: ../../assets/portfolio/hack-iloilo/section-one-image-three-1500x1000.jpg
-sectionTwoImageFour: ../../assets/portfolio/hack-iloilo/section-one-image-four-1500x1000.jpg
-sectionTwoImageFive: ../../assets/portfolio/hack-iloilo/section-one-image-five-1500x1000.jpg
 ---
 

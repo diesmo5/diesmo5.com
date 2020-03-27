@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<main>
+  {{ partial "navbar" }}
+  <section class="container text-center py-5">
+    <div class="pt-5">
+      <h1 class="font-weight-bold text-uppercase pt-5"><u>{{.Title}}</u></h1>
+    </div>
+    {{ range .Pages }}
+    <div class="row py-2">
+      <a
+        href="{{.URL}}"
+        target="_blank"
+        class="btn btn-lg btn-block rounded-0 btn-graphite text-uppercase p-4"
+        >{{.Title}}</a
+      >
+    </div>
+    {{ end }}
+  </section>
+  {{ partial "footer" }}
+</main>
+
+{{ end }}
