@@ -39,7 +39,39 @@
           <h2 class="font-weight-bold">OUTCOME</h2>
           <h6 class="font-weight-normal">{{.Params.outcome}}</h6>
         </div>
-        <div class="col-lg-4 col-md-6 py-3"></div>
+        <div class="col-lg-4 col-md-6 py-3">
+          <h3 class="font-weight-bold">LET'S WORK TOGETHER</h3>
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            action="/media-services-contact/success"
+          >
+            <div class="row">
+              <p class="col-10">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="EMAIL"
+                  class="w-100 py-2 px-2"
+                />
+              </p>
+              <p class="col-2">
+                <button
+                  type="submit"
+                  class="btn btn-graphite rounded-0 px-5 py-2"
+                >
+                  Send
+                </button>
+              </p>
+            </div>
+            <p class="text-small">
+              If you were interested in this kind of work and would like to
+              recieve something similar, then leave your email here. We’ll be
+              notified immediately and will have a better gist of what you want.
+            </p>
+          </form>
+        </div>
       </div>
     </div>
   </section>
@@ -60,35 +92,35 @@
         <h6 class="font-weight-normal">{{.Params.sectionOneDescription}}</h6>
       </div>
       <div id="" class="container py-5">
-        <div class="hover-zoom">
+        <div class="col-auto hover-zoom">
           <img
             src="{{.Params.sectionOneImageOne}}"
             alt=""
             class="w-100 px-lg-5"
           />
         </div>
-        <div class="hover-zoom">
+        <div class="col-auto hover-zoom">
           <img
             src="{{.Params.sectionOneImageTwo}}"
             alt=""
             class="w-100 px-lg-5"
           />
         </div>
-        <div class="hover-zoom">
+        <div class="col-auto hover-zoom">
           <img
             src="{{.Params.sectionOneImageThree}}"
             alt=""
             class="w-100 px-lg-5"
           />
         </div>
-        <div class="hover-zoom">
+        <div class="col-auto hover-zoom">
           <img
             src="{{.Params.sectionOneImageFour}}"
             alt=""
             class="w-100 px-lg-5"
           />
         </div>
-        <div class="hover-zoom">
+        <div class="col-auto hover-zoom">
           <img
             src="{{.Params.sectionOneImageFive}}"
             alt=""

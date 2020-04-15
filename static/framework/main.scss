@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500&display=swap");
+
+$graphite-light: #424242;
+$graphite: #212121;
+$graphite-dark: #0b0b0b;
+$white: #ffffff;
+$transparent: #ffffff00;
+
+html {
+    color: #151515;
+    overflow-x: hidden;
+}
+
+// NAVBARS
+.navbar-diesmo5 {
+    padding: 3vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-diesmo5-media {
+    padding: 3vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-stadiumeight {
+    padding: 3vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #be8900;
+}
+
+// FONT-FAMILY
+.font-montserrat {
+    font-family: "Montserrat", serif;
+}
+.font-raleway {
+    font-family: "Raleway", serif;
+}
+.font-work-sans {
+    font-family: "Work Sans", sans-serif;
+}
+
+// TEXT COLORS
+.text-golden {
+    color: #be8900;
+}
+.text-golden:hover {
+    color: #be8900;
+}
+.text-liberty-dark {
+    color: #151515;
+}
+.text-liberty-dark:hover {
+    color: #6c00ff;
+    transition-duration: 0.3s;
+}
+
+// TEXT SIZE
+.text-small {
+    font-size: 9px;
+}
+
+// BACKGROUND COLORS
+.bg-liberty {
+    background-color: #6c00ff;
+}
+.bg-graphite-light {
+    background-color: $graphite-light !important;
+}
+a.bg-graphite-light:hover,
+a.bg-graphite-light:focus,
+button.bg-graphite-light:hover,
+button.bg-graphite-light:focus {
+    background-color: $graphite !important;
+}
+.bg-graphite {
+    background-color: $graphite !important;
+}
+.bg-graphite-dark {
+    background-color: $graphite-dark !important;
+}
+a.bg-graphite:hover,
+a.bg-graphite:focus,
+button.bg-graphite:hover,
+button.bg-graphite:focus {
+    background-color: $graphite-dark !important;
+}
+.bg-white {
+    background-color: $white !important;
+}
+.bg-transparent {
+    background-color: transparent !important;
+}
+.bg-diesmo5 {
+    /* background-image: url("/assets/diesmo5/diesmo5-corporate-bg-1500x900.jpg"); */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-diesmo5-media {
+    background-image: url("/assets/diesmo5/diesmo5-media-bg-1500x900-alt.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-stadium-eight {
+    background-image: url("/assets/diesmo5/stadiumeight-bg-1500x900.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// BUTTONS
+.btn-graphite {
+    color: $white;
+    background-color: $graphite;
+    border-color: $graphite;
+    &:hover {
+        color: $white;
+        background-color: $graphite-dark;
+        border-color: $graphite-dark;
+    }
+}
+.btn-golden {
+    background-color: #be8900;
+    color: #ffffff;
+}
+.btn-golden:hover {
+    background-color: #b17f02;
+    color: #ffffff;
+}
+.btn-graphite-light {
+    color: $white;
+    background-color: $graphite-light;
+    border-color: $graphite-light;
+    &:hover {
+        color: $white;
+        background-color: $graphite;
+        border-color: $graphite;
+    }
+}
+.btn-outline-graphite {
+    color: $graphite;
+    background-color: $transparent;
+    border-color: $graphite;
+    &:hover {
+        color: $white;
+        background-color: $graphite;
+        border-color: $graphite;
+    }
+}
+.btn-outline-graphite-light {
+    color: $graphite-light;
+    background-color: $transparent;
+    border-color: $graphite-light;
+    &:hover {
+        color: $white;
+        background-color: $graphite-light;
+        border-color: $graphite-light;
+    }
+}
+
+// ANIMATIONS
+.hover-zoom {
+    /* height: 300px; [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.hover-zoom img {
+    transition: transform 0.5s ease;
+}
+.hover-zoom:hover img {
+    transform: scale(1.2);
+}
+
+// SPACING
+.h-100vh {
+    height: 100vh;
+}
+.h-75vh {
+    height: 75vh;
+}
+.h-50vh {
+    height: 50vh;
+}
+
+.pt-10 {
+    padding-top: 10vh;
+}
+.pt-15 {
+    padding-top: 15vh;
+}
+.pt-20 {
+    padding-top: 20vh;
+}
+.pt-30 {
+    padding-top: 30vh;
+}
+.pt-40 {
+    padding-top: 40vh;
+}
+.text-7 {
+    font-size: 7vh;
+}
+.text-9 {
+    font-size: 9vh;
+}
+
+.vh-100 {
+    height: 100vh;
+}
