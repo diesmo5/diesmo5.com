@@ -1,67 +1,65 @@
 {{ define "main" }}
 <!--  -->
-<main class="font-raleway">
+<main class="font-raleway bg-graphite">
   {{ partial "stadiumeightNav" }}
+  <section id="stadium-eight-main-hero" class="">
+    <div class="container font-raleway text-center text-white">
+      <h1 class="font-lobster pt-30">The Untold Stories</h1>
+      <h3 class="font-roboto-condensed font-weight-bold pt-3">OF</h3>
+      <h1 class="text-9">
+        <b class="font-weight-light">STADIUM</b>
+        <l class="font-weight-bold">EIGHT</l>
+      </h1>
+      <h5 class="font-work-sans font-weight-normal">
+        Est. 2020
+      </h5>
+      <h2 class="font-roboto font-weight-light ls-1 pt-3 pb-5">Live Life. Share Stories.</h2>
+      <a href="/stadiumeight-create-profile" class="btn btn-outline-light rounded-0 px-5 py-3">
+        Create Profile
+      </a>
+    </div>
+  </section>
 
-  <section class="h-100vh">
-    <div class="container pt-20">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 my-auto">
-          <img
-            src="../../assets/stadiumeight/stadiumeightlogo-200x200.png"
-            alt=""
-            class="w-100"
-          />
-        </div>
-        <div class="col-lg-6 col-md-6 my-auto">
-          <h1 class="font-weight-bold text-golden">Listen to our podcast</h1>
-          <h3 class="font-weight-light text-golden pt-2 pb-3">
-            Coming soon to spotify, youtube, and apple podcast.
-          </h3>
-
-          <!-- Begin Mailchimp Signup Form -->
-          <div id="mc_embed_signup">
-            <form
-              action="https://diesmo5.us5.list-manage.com/subscribe/post?u=a0f3186838415a0e37a8dc337&amp;id=8f77cd9a30"
-              method="post"
-              id="mc-embedded-subscribe-form"
-              name="mc-embedded-subscribe-form"
-              class="validate"
-              target="_blank"
-              novalidate
-            >
-              <div id="mc_embed_signup_scroll">
-                <input
-                  type="email"
-                  value=""
-                  name="EMAIL"
-                  class="btn btn-block border text-left p-3"
-                  id="mce-EMAIL"
-                  placeholder="email address"
-                  required
-                />
-                <div class="py-2"></div>
-                <div class="clear">
-                  <input
-                    type="submit"
-                    value="Sign Up for Notifications"
-                    name="subscribe"
-                    id="mc-embedded-subscribe"
-                    class="btn btn-block btn-golden p-3"
-                  />
-                </div>
-              </div>
-            </form>
+  <section id="stadium-eight-podcast" class="text-white py-5">
+    <div class="container py-5">
+      <h1 class="font-weight-bold text-center">PODCASTS</h1>
+      <div id="podcast-list" class=" py-5">
+        <div class="row">
+          {{ range $.Site.Data.StadiumEight.Podcasts.list }}
+          <div class="col-lg-4 col-md-6 col-12 py-3">
+            <a href="{{ .link }}" class="">
+              <img src="{{ .imageSrc }}" alt="" class="hover-box-shadow w-100">
+            </a>
           </div>
-          <!--End mc_embed_signup-->
-
-          <h6 class="font-weight-normal pt-3">
-            Sign up to be notified when we upload our first episode. After that,
-            you’ll only be notified if you subscribe to the podcast.
-          </h6>
+          {{ end }}
         </div>
       </div>
     </div>
   </section>
+
+  <section id="stadium-eight-feature-one" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12 py-4">
+          <iframe width="100%" height="315" src="{{ .Params.FeatureOneSrc }}" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-6 col-12 py-4 my-auto">
+          <h2 class="font-weight-bold text-white">{{.Params.FeatureOneTitle}}</h2>
+          <div class="row pr-lg-5">
+            <div class="col-md-6 col-12">
+              <a href="{{ .Params.FeatureOnePlaylist }}" target="_blank"
+                class="btn btn-block rounded-0 btn-light font-weight-bold px-5">Play Now</a>
+            </div>
+            <div class="col-md-6 col-12">
+              <a href="{{ .Params.FeatureOneURL }}" class="btn btn-block rounded-0 btn-dark font-weight-bold px-5">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 </main>
 {{ end }}

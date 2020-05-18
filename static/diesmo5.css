@@ -82,6 +82,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.stadium-eight-main-hero {
+  background-image: url("../assets/stadiumeight/main-hero-3000x2000.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .btn-golden {
   background-color: #be8900;
   color: #ffffff;
