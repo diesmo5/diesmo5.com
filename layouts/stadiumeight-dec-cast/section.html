@@ -13,10 +13,10 @@
                 </div>
                 <div class="row py-3">
                     <h4 class="font-weight-bold pt-4">PRODUCTION COMPANY</h4>
-                    <a href="{{ .Params.ProductionCompanyURL }}" target="_blank" class=""><img src="{{ .Params.ProductionCompany }}" alt="" class="w-25"></a>
+                    <a href="{{ .Params.ProductionCompanyURL }}" target="_blank" rel="none" class=""><img src="{{ .Params.ProductionCompany }}" alt="" class="w-25"></a>
                 </div>
                 <div class="row col-lg-6 col-12 py-3">
-                    <a href="{{ .Params.PlaylistURL }}" target="_blank" class="btn btn-lg btn-block btn-light font-weight-bold px-5 py-3"><i
+                    <a href="{{ .Params.PlaylistURL }}" target="_blank" rel="none" class="btn btn-lg btn-block btn-light font-weight-bold px-5 py-3"><i
                             class="fas fa-play px-2"></i> START WATCHING</a>
                 </div>
                 <div class="row col-lg-6 col-12 py-3">
@@ -53,13 +53,13 @@
                 <div class="col-lg-3 col-md-4 col-12">
                     <h5 class="font-weight-bold">SOCIAL</h5>
                     <div class="">
-                        <a href="{{ .Params.InstagramURL }}" target="_blank" class="text-light text-decoration-none"><i
+                        <a href="{{ .Params.InstagramURL }}" target="_blank" rel="none" class="text-light text-decoration-none"><i
                                 class="fab fa-instagram-square fa-2x"></i></a>
-                        <a href="{{ .Params.TwitterURL }}" target="_blank" class="text-light text-decoration-none"><i
+                        <a href="{{ .Params.TwitterURL }}" target="_blank" rel="none" class="text-light text-decoration-none"><i
                                 class="fab fa-twitter-square fa-2x"></i></a>
-                        <a href="{{ .Params.FacebookURL }}" target="_blank" class="text-light text-decoration-none"><i
+                        <a href="{{ .Params.FacebookURL }}" target="_blank" rel="none" class="text-light text-decoration-none"><i
                                 class="fab fa-facebook-square fa-2x"></i></a>
-                        <a href="{{ .Params.WebsiteURL }}" target="_blank" class="text-light text-decoration-none"><i
+                        <a href="{{ .Params.WebsiteURL }}" target="_blank" rel="none" class="text-light text-decoration-none"><i
                                 class="fas fa-share-alt-square fa-2x"></i></a>
                     </div>
                 </div>
@@ -73,19 +73,19 @@
                 <div class="row rounded bg-graphite-light box-shadow">
                     <div class="row">
                         <div class="col-lg-4">
-                            <a href="{{ .EpisodeURL }}" target="_blank" class="">
+                            <a href="{{ .EpisodeURL }}" target="_blank" rel="none" class="">
                                 <img src="{{ .EpisodeImageSrc }}" alt="" class="card-img">
                             </a>
                         </div>
                         <div class="col-lg-6 text-white my-auto">
-                            <a href="{{ .EpisodeURL }}" target="_blank" class="text-white text-decoration-none">
+                            <a href="{{ .EpisodeURL }}" target="_blank" rel="none" class="text-white text-decoration-none">
                                 <h2 class="">{{ .EpisodeTitle }}</h2>
                                 <h6 class="">{{ .EpisodeDescription }}</h6>
                                 <h6 class="text-small">{{ .EpisodeDate }}</h6>
                             </a>
                         </div>
                         <div class="col-lg-2 my-auto">
-                            <a href="{{ .EpisodeURL }}" target="_blank" class="text-golden">
+                            <a href="{{ .EpisodeURL }}" target="_blank" rel="none" class="text-golden">
                                 <i class="far fa-play-circle fa-4x"></i>
                             </a>
                         </div>
