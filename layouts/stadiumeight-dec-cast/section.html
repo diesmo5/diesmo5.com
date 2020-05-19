@@ -13,15 +13,15 @@
                 </div>
                 <div class="row py-3">
                     <h4 class="font-weight-bold pt-4">PRODUCTION COMPANY</h4>
-                    <a href="{{ .Params.ProductionCompanyURL }}" target="_blank" rel="none" class=""><img src="{{ .Params.ProductionCompany }}" alt="" class="w-25"></a>
+                    <a href="{{ .Params.ProductionCompanyURL }}" target="_blank" rel="none" class=""><img
+                            src="{{ .Params.ProductionCompany }}" alt="" class="w-25"></a>
                 </div>
-                <div class="row col-lg-6 col-12 py-3">
-                    <a href="{{ .Params.PlaylistURL }}" target="_blank" rel="none" class="btn btn-lg btn-block btn-light font-weight-bold px-5 py-3"><i
-                            class="fas fa-play px-2"></i> START WATCHING</a>
-                </div>
-                <div class="row col-lg-6 col-12 py-3">
+                <div class="row py-3">
+                    <a href="{{ .Params.PlaylistURL }}" target="_blank" rel="none"
+                        class="btn btn-lg btn-block btn-light font-weight-bold py-3"><i class="fas fa-play px-2"></i>
+                        START WATCHING</a>
                     <a href="#stadium-eight-individual-info"
-                        class="btn btn-lg btn-block btn-golden font-weight-bold px-5 py-3">MORE INFO</a>
+                        class="btn btn-lg btn-block btn-golden font-weight-bold py-3">MORE INFO</a>
                 </div>
             </div>
         </div>
@@ -53,14 +53,14 @@
                 <div class="col-lg-3 col-md-4 col-12">
                     <h5 class="font-weight-bold">SOCIAL</h5>
                     <div class="">
-                        <a href="{{ .Params.InstagramURL }}" target="_blank" rel="none" class="text-light text-decoration-none"><i
-                                class="fab fa-instagram-square fa-2x"></i></a>
-                        <a href="{{ .Params.TwitterURL }}" target="_blank" rel="none" class="text-light text-decoration-none"><i
-                                class="fab fa-twitter-square fa-2x"></i></a>
-                        <a href="{{ .Params.FacebookURL }}" target="_blank" rel="none" class="text-light text-decoration-none"><i
-                                class="fab fa-facebook-square fa-2x"></i></a>
-                        <a href="{{ .Params.WebsiteURL }}" target="_blank" rel="none" class="text-light text-decoration-none"><i
-                                class="fas fa-share-alt-square fa-2x"></i></a>
+                        <a href="{{ .Params.InstagramURL }}" target="_blank" rel="none"
+                            class="text-light text-decoration-none"><i class="fab fa-instagram-square fa-2x"></i></a>
+                        <a href="{{ .Params.TwitterURL }}" target="_blank" rel="none"
+                            class="text-light text-decoration-none"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="{{ .Params.FacebookURL }}" target="_blank" rel="none"
+                            class="text-light text-decoration-none"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="{{ .Params.WebsiteURL }}" target="_blank" rel="none"
+                            class="text-light text-decoration-none"><i class="fas fa-share-alt-square fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -77,14 +77,15 @@
                                 <img src="{{ .EpisodeImageSrc }}" alt="" class="card-img">
                             </a>
                         </div>
-                        <div class="col-lg-6 text-white my-auto">
-                            <a href="{{ .EpisodeURL }}" target="_blank" rel="none" class="text-white text-decoration-none">
+                        <div class="col-lg-6 text-white my-auto p-4">
+                            <a href="{{ .EpisodeURL }}" target="_blank" rel="none"
+                                class="text-white text-decoration-none">
                                 <h2 class="">{{ .EpisodeTitle }}</h2>
                                 <h6 class="">{{ .EpisodeDescription }}</h6>
                                 <h6 class="text-small">{{ .EpisodeDate }}</h6>
                             </a>
                         </div>
-                        <div class="col-lg-2 my-auto">
+                        <div class="col-lg-2 text-center my-auto p-4">
                             <a href="{{ .EpisodeURL }}" target="_blank" rel="none" class="text-golden">
                                 <i class="far fa-play-circle fa-4x"></i>
                             </a>
