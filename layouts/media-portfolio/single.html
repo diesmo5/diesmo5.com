@@ -3,8 +3,7 @@
 
 <main>
   {{ partial "diesmo5mediaNav" }}
-  <section id="banner" class="">
-    <img src="{{ .Params.banner }}" alt="" class="w-100" />
+  <section id="banner" style="background-image: url('{{ .Params.banner }}');" class="parallax h-75vh">
   </section>
 
   <section id="info" class="py-5">
@@ -13,12 +12,8 @@
         <div class="col-lg-4 col-md-6 py-3">
           <h1 class="font-weight-bold text-uppercase">{{.Title}}</h1>
           <h6 class="font-weight-normal">{{.Description}}</h6>
-          <a
-            href="https://{{.Params.website}}"
-            target="_blank"
-            rel="none"
-            class="text-liberty-dark"
-            >Visit {{.Params.website}} >
+          <a href="https://{{.Params.website}}" target="_blank" rel="none" class="text-liberty-dark">Visit
+            {{.Params.website}} >
           </a>
         </div>
         <div class="col-lg-4 col-md-6 py-3">
@@ -41,26 +36,13 @@
         </div>
         <div class="col-lg-4 col-md-6 py-3">
           <h3 class="font-weight-bold">LET'S WORK TOGETHER</h3>
-          <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            action="/media-services-contact/success"
-          >
+          <form name="contact" method="POST" data-netlify="true" action="/media-services-contact/success">
             <div class="row">
-              <p class="col-10">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="EMAIL"
-                  class="w-100 py-2 px-2"
-                />
+              <p class="col-lg-10 col-md-9 col-12">
+                <input type="email" name="email" placeholder="EMAIL" class="w-100 py-2 px-2" />
               </p>
-              <p class="col-2">
-                <button
-                  type="submit"
-                  class="btn btn-graphite rounded-0 px-5 py-2"
-                >
+              <p class="col-lg-2 col-md-3 col-12">
+                <button type="submit" class="btn btn-graphite-liberty rounded-0 px-5 py-2">
                   Send
                 </button>
               </p>
@@ -76,14 +58,11 @@
     </div>
   </section>
 
-  <section id="" class="">
-    <img src="{{ .Params.projectImage }}" alt="" class="w-100" />
+  <section id="" style="background-image: url('{{ .Params.projectImage }}');" class="parallax h-100vh">
+    <!-- <img src="{{ .Params.projectImage }}" alt="" class="w-100" /> -->
   </section>
 
-  <article
-    style="background-color: #{{.Params.backgroundColor}};"
-    class="text-{{.Params.textColor}} pb-5"
-  >
+  <article style="background-color: #{{.Params.backgroundColor}};" class="text-{{.Params.textColor}} pb-5">
     <section id="sectionOne" class="py-5">
       <div class="container col-lg-7 py-5">
         <h2 class="font-weight-bold text-uppercase">
@@ -93,39 +72,19 @@
       </div>
       <div id="" class="container py-5">
         <div class="col-auto hover-zoom">
-          <img
-            src="{{.Params.sectionOneImageOne}}"
-            alt=""
-            class="w-100 px-lg-5"
-          />
+          <img src="{{.Params.sectionOneImageOne}}" alt="" class="w-100 px-lg-5" />
         </div>
         <div class="col-auto hover-zoom">
-          <img
-            src="{{.Params.sectionOneImageTwo}}"
-            alt=""
-            class="w-100 px-lg-5"
-          />
+          <img src="{{.Params.sectionOneImageTwo}}" alt="" class="w-100 px-lg-5" />
         </div>
         <div class="col-auto hover-zoom">
-          <img
-            src="{{.Params.sectionOneImageThree}}"
-            alt=""
-            class="w-100 px-lg-5"
-          />
+          <img src="{{.Params.sectionOneImageThree}}" alt="" class="w-100 px-lg-5" />
         </div>
         <div class="col-auto hover-zoom">
-          <img
-            src="{{.Params.sectionOneImageFour}}"
-            alt=""
-            class="w-100 px-lg-5"
-          />
+          <img src="{{.Params.sectionOneImageFour}}" alt="" class="w-100 px-lg-5" />
         </div>
         <div class="col-auto hover-zoom">
-          <img
-            src="{{.Params.sectionOneImageFive}}"
-            alt=""
-            class="w-100 px-lg-5"
-          />
+          <img src="{{.Params.sectionOneImageFive}}" alt="" class="w-100 px-lg-5" />
         </div>
       </div>
     </section>
@@ -166,11 +125,7 @@
   <section class="h-50vh">
     <div class="container font-work-sans text-center">
       <h2 class="font-weight-bold pt-15 pb-4">LET'S MAKE SOMETHING TOGETHER</h2>
-      <a
-        href="/media-services-contact"
-        class="btn btn-graphite rounded-0 px-5 py-3"
-        >CONTACT US</a
-      >
+      <a href="/media-services-contact" class="btn btn-graphite-liberty rounded-0 px-5 py-3">CONTACT US</a>
     </div>
   </section>
   {{ partial "diesmo5mediaFooter" }}

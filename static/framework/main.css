@@ -199,6 +199,20 @@ button.bg-graphite:focus {
   border-color: #252525;
 }
 
+.btn-graphite-liberty {
+  color: #ffffff;
+  background-color: #0b0b0b;
+  border-color: #0b0b0b;
+}
+
+.btn-graphite-liberty:hover {
+  color: #ffffff;
+  background-color: #6c00ff;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border-color: #6c00ff;
+}
+
 .hover-zoom {
   /* height: 300px; [1.1] Set it as per your need */
   overflow: hidden;
@@ -217,6 +231,16 @@ button.bg-graphite:focus {
           transform: scale(1.2);
 }
 
+.hover-graphite-liberty {
+  color: #0b0b0b;
+}
+
+.hover-graphite-liberty:hover {
+  color: #6c00ff;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
 .hover-box-shadow {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -230,6 +254,13 @@ button.bg-graphite:focus {
 .box-shadow {
   -webkit-box-shadow: 0px 10px 10px 10px #000000;
           box-shadow: 0px 10px 10px 10px #000000;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .h-100vh {
