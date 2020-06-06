@@ -1,57 +1,458 @@
 {{ define "main" }}
 <!-- MAIN START -->
-<main style="overflow-x: hidden;">
+<main class="font-raleway">
   {{ partial "diesmo5mediaNav" }}
 
-  <section class="h-100vh">
-    <div class="container font-work-sans">
-      <h1 class="font-weight-bold pt-40">WHAT WE DO</h1>
-      <h3 class="font-weight-normal">
-        We create effective strategies, powerful identities, seamless
-        interactions, and memorable experiences to connect people to brands and
-        organizations.
-      </h3>
-    </div>
-  </section>
-
-  <section class="bg-graphite">
-    <div class="font-work-sans">
-      {{ range .Pages.Reverse }}
-      <div class="row">
-        <div class="col-lg-8">
-          <img
-            src="{{.Params.headerImage}}"
-            alt="{{.Params.headerImageAlt}}"
-            class="w-100"
-          />
-        </div>
-        <div class="col-lg-4 text-white my-auto p-5">
-          <h2 class="font-weight-bold text-uppercase">{{.Title}}</h2>
-          <h4 class="font-weight-normal py-3">
-            {{.Description}}
-          </h4>
-          <a href="{{.URL}}" class="text-uppercase hover-graphite-liberty text-white">
-            <u>
-              LEARN MORE ABOUT {{.Title}}
-            </u>
-          </a>
+  <section id="media-services-hero" class="bg-seashell bg-image py-5"
+    style="background-image: url('../assets/media/services/services-hero-2560x1440.jpg');">
+    <div id="padding" class="py-5">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-8 col-md-12 col-12 m-auto py-4">
+            <div class="bg-white text-deep-space-sparkle p-lg-5 p-4">
+              <h1 class="card-title font-merriweather font-weight-bold"> You <u><i>can</i></u> have a website that gets
+                you customers.</h1>
+              <h4 class="card-text py-4">We’ll create a website that helps you book out your calendar so
+                you can focus on what’s most important, growing your business.</h4>
+              <h4 class="card-text pb-4">Book a free strategy call and we’ll figure out your next best step, together.
+              </h4>
+              <a href="" class="btn btn-lg btn-middle-red-to-prussian-blue rounded-0 px-5 py-3">BOOK YOUR CALL</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12 m-auto py-4">
+          </div>
         </div>
       </div>
-      {{ end }}
     </div>
   </section>
-
-  <section class="h-50vh">
-    <div class="container font-work-sans text-center">
-      <h2 class="font-weight-bold pt-15 pb-4">LET'S MAKE SOMETHING TOGETHER</h2>
-      <a
-        href="/media-services-contact"
-        class="btn btn-graphite rounded-0 px-5 py-3"
-        >CONTACT US</a
-      >
+  <section id="page-section-one" class="p-lg-5" data-aos="fade-up">
+    <div class="container bg-platinum p-5">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 col-12 m-auto py-4 text-deep-space-sparkle">
+          <!-- <h5 class="">LET'S JUST SAY IT</h5> -->
+          <h2 class="font-merriweather font-weight-bold">You know you’re
+            good at what you do.</h2>
+          <h5 class="py-3">The results of your work are clear, so you’re not sure why your website isn’t bringing in new
+            leads.</h5>
+          <h5 class="">
+            But you KNOW you need a successful website if you want to have the flexibility you crave.
+          </h5>
+        </div>
+        <div class="col-lg-5 col-md-6 col-12 m-auto py-4">
+          <img src="../assets/media/services/services-planner-900x900.jpg" alt="" class="w-100">
+        </div>
+      </div>
     </div>
   </section>
+  <section id="page-section-two" class="p-lg-5" data-aos="fade-up">
+    <div class="container bg-seashell p-5">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-12 m-auto py-4">
+          <img src="../assets/media/services/services-money-900x900.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-lg-7 col-md-6 col-12 m-auto py-4 text-deep-space-sparkle">
+          <!-- <h5 class="">NICE WORK!</h5> -->
+          <h2 class="font-merriweather font-weight-bold">Websites can feel like a
+            waste of time and money.</h2>
+          <h5 class="py-4">We get it because we see it all the time with our clients.
+          </h5>
+          <h5 class="ml-lg-5"><i class="fas fa-times mr-2"></i> You DIY your website for months but wonder if it’s all
+            been
+            a waste of time because
+            <b>
+              no one’s even downloading your freebie, let alone book a sales call.
+            </b>
+          </h5>
+          <h5 class="ml-lg-5 py-4"><i class="fas fa-times mr-2"></i> You Google for ages and even ask for help in a
+            forum
+            but
+            your page is still broken because
+            <b>
+              you don’t have time to keep fixing every damn tech problem.
+            </b>
+          </h5>
+          <h5 class="ml-lg-5"><i class="fas fa-times mr-2"></i> You crave the flexibility of working online but keep
+            going
+            back to in-person clients because
+            <b>
+              you need to keep the lights on and maybe running an online business just isn’t for you.
+            </b>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-three" class="bg-prussian-blue text-white text-center p-5">
+    <div class="container py-5">
+      <div class="col py-5">
+        <h3 class="font-raleway">PSST:</h3>
+        <h3 class="font-raleway pb-4">It’s not you.</h3>
+        <h3 class="font-raleway">You know you’re smart. You know you’ve <br> got a great business.</h3>
+        <hr class="bg-middle-red col-1 my-5 py-1">
+        <h2 class="font-merriweather font-weight-bold">You just need a website that works for you. <br>
+          And we can make it for you.</h2>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-four" class="p-lg-5" data-aos="fade-up">
+    <div class="container bg-seashell p-5">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-12 m-auto py-4">
+          <img src="../assets/media/services/services-agency-900x900.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-lg-7 col-md-6 col-12 m-auto py-4 text-deep-space-sparkle">
+          <!-- <h5 class="">NICE WORK!</h5> -->
+          <h2 class="font-merriweather font-weight-bold">How are we different?</h2>
+          <h5 class="py-4"> We’re not like other web designers who just stamp out a new website after another using a
+            generic template, without taking the time to understand your vision or your business.</h5>
+          <h5 class=""> We help you make good decisions that make your business more profitable.</h5>
+          <h5 class=" py-4"> If you’re early in your business and you don’t need a website just yet, we’ll be the first
+            to tell you so.</h5>
+          <h5 class=""> Each website we do build is carefully thought out to bring you more leads. This means you can
+            focus on what matters: helping your customers and growing your business.</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-five" class="p-lg-5" data-aos="fade-up">
+    <div class="container bg-platinum p-5">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 col-12 m-auto py-4 text-deep-space-sparkle">
+          <!-- <h5 class="">NICE WORK!</h5> -->
+          <h2 class="font-merriweather font-weight-bold">Your website can help
+            you grow your business.</h2>
+          <h5 class="py-4"> When you quit relying on Google and put your trust in US to launch a website that supports
+            your business…</h5>
+          <h5 class="ml-lg-5"><i class="fas fa-check"></i> Your email list is growing every week because your
+            website helps people download your freebie.
+          </h5>
+          <h5 class="ml-lg-5 py-4"><i class="fas fa-check"></i> You quickly move past tech challenges as they come
+            up because you always have access to expert support.</h5>
+          <h5 class="ml-lg-5"><i class="fas fa-check"></i> You designate a corner of the house as your home office
+            because your calendar’s booked out and all your coaching happens over Zoom calls.</h5>
+        </div>
+        <div class="col-lg-5 col-md-6 col-12 m-auto py-4">
+          <img src="../assets/media/services/services-store-900x900.jpg" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-six" class="bg-copper-red text-white text-center p-5">
+    <div class="container py-5">
+      <div class="col py-5">
+        <h3 class="font-raleway"> It’s 100% possible to connect with dreamy online clients
+          without wasting any more hours trying to do it on your own.
+        </h3>
+        <h3 class="font-raleway"> Let us help.</h3>
+        <hr class="bg-prussian-blue col-1 my-5 py-1">
+      </div>
+    </div>
+  </section>
+  <section id="page-section-seven" class="p-lg-5" data-aos="fade-up">
+    <div class="container bg-seashell p-5">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-12 m-auto py-4">
+          <img src="../assets/media/services/services-consult-900x900.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-lg-7 col-md-6 col-12 m-auto py-4 text-deep-space-sparkle">
+          <!-- <h5 class="">NICE WORK!</h5> -->
+          <h2 class="font-merriweather font-weight-bold py-4"> Our web design services are perfect for you if…</h2>
+          <h5 class="ml-lg-5"><i class="fas fa-fire text-middle-red mr-2"></i> You provide a product or service that
+            brings value</h5>
+          <h5 class="ml-lg-5 py-4"><i class="fas fa-fire text-middle-red mr-2"></i> You get solid results for your
+            in-person clients and want to help more people through online coaching</h5>
+          <h5 class="ml-lg-5"><i class="fas fa-fire text-middle-red mr-2"></i> You are ready for a website you’re proud
+            to show off</h5>
+          <h5 class="ml-lg-5 py-4"><i class="fas fa-fire text-middle-red mr-2"></i> You want your website to help you
+            book more sales calls</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-eight" class="bg-seashell p-lg-5">
+    <div class="container text-center py-5">
+      <h2 class="font-merriweather font-weight-bold text-deep-space-sparkle py-5"> How it works</h2>
+      <div class="row py-5 text-deep-space-sparkle">
+        <div class="col-lg-4 col-md-4 col-12 py-3">
+          <i class="fas fa-pencil-ruler fa-2x"></i>
+          <h3 class="font-merriweather font-weight-bold text-middle-red pt-3 pb-1"> Plan</h3>
+          <h5 class="font-raleway font-weight-normal">We started coding websites when Britney Spears was singing, “Hit
+            me
+            baby one more time.”</h5>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12 py-3">
+          <i class="fas fa-palette fa-2x"></i>
+          <h3 class="font-merriweather font-weight-bold text-middle-red pt-3 pb-1">Design</h3>
+          <h5 class="font-raleway font-weight-normal">We founded a tech startup with some awesome friends while studying
+            for our degrees in computer science.</h5>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12 py-3">
+          <i class="fas fa-glass-cheers fa-2x"></i>
+          <h3 class="font-merriweather font-weight-bold text-middle-red pt-3 pb-1">Launch</h3>
+          <h5 class="font-raleway font-weight-normal">From green energy to smart elevators, we’ve learned to sell for
+            all
+            sorts of businesses.</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-nine" class="p-lg-5" data-aos="fade-up">
+    <div class="container text-center py-5">
+      <h2 class="font-merriweather font-weight-bold text-deep-space-sparkle py-5"> Web Design Packages</h2>
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="bg-platinum p-4">
+            <div class="border-prussian-blue  p-5">
+              <h3 class="font-merriweather font-weight-bold text-deep-space-sparkle">Basic</h3>
+              <h6 class="font-merriweather font-weight-bold text-middle-red pt-2 pb-3">Web design</h6>
+              <div id="features" class="text-left text-prussian-blue">
+                <h6 class="py-2"><i class="fas fa-laptop fa-1x mr-3"></i><b>Custom Squarespace website</b> that speaks
+                  to your audience and helps them buy from you</h6>
+                <h6 class="py-2"><i class="fas fa-user-friends fa-1x mr-3"></i><b>Client journey strategy</b> for
+                  designing a smooth and positive client experience</h6>
+                <h6 class="py-2"><i class="fas fa-magic fa-1x mr-3"></i><b>Brand fonts and colors</b> so you can build
+                  a
+                  consistent visual brand online</h6>
+                <h6 class="py-2"><i class="far fa-handshake fa-1x mr-3"></i><b>Personalized Squarespace training</b>
+                  to make
+                  sure you have full control over your website</h6>
+                <h6 class="text-cadet-grey py-2"><i class="fas fa-pencil-alt fa-1x mr-3"></i><strike><b>Copywriting for
+                      all pages </b>so
+                    you can
+                    tell
+                    me your story instead of staring at a blank screen</strike> </h6>
+                <h6 class="text-cadet-grey py-2"><i class="fas fa-comment-dots fa-1x mr-3"></i><strike><b> Brand
+                      messaging strategy</b> to
+                    help
+                    you stay
+                    on-brand in all your emails and social media posts</strike></h6>
+                <h6 class="text-cadet-grey py-2"><i class="fas fa-images fa-1x mr-3"></i><strike><b> Stock photography
+                      curating </b> to
+                    save you
+                    hours of
+                    browsing through and optimizing free (subpar) images</strike> </h6>
+              </div>
+              <h4 class="font-work-sans font-weight-normal text-prussian-blue pt-4">STARTING AT $3,490</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="bg-platinum p-4">
+            <div class="border-prussian-blue p-5">
+              <h3 class="font-merriweather font-weight-bold text-deep-space-sparkle">Complete</h3>
+              <h6 class="font-merriweather font-weight-bold text-middle-red pt-2 pb-3">Web design + copywriting +
+                imagery</h6>
+              <div id="features" class="text-left text-prussian-blue">
+                <h6 class="py-2"><i class="fas fa-laptop fa-1x mr-3"></i><b>Custom Squarespace website</b> that speaks
+                  to your audience and helps them buy from you</h6>
+                <h6 class="py-2"><i class="fas fa-user-friends fa-1x mr-3"></i><b>Client journey strategy</b> for
+                  designing a smooth and positive client experience</h6>
+                <h6 class="py-2"><i class="fas fa-magic fa-1x mr-3"></i><b>Brand fonts and colors</b> so you can build
+                  a
+                  consistent visual brand online</h6>
+                <h6 class="py-2"><i class="far fa-handshake fa-1x mr-3"></i><b>Personalized Squarespace training</b>
+                  to make
+                  sure you have full control over your website</h6>
+                <h6 class="py-2"><i class="fas fa-pencil-alt fa-1x mr-3"></i><b>Copywriting for all pages </b>so you can
+                  tell
+                  me your story instead of staring at a blank screen</h6>
+                <h6 class="py-2"><i class="fas fa-comment-dots fa-1x mr-3"></i><b> Brand messaging strategy</b> to help
+                  you stay
+                  on-brand in all your emails and social media posts</h6>
+                <h6 class="py-2"><i class="fas fa-images fa-1x mr-3"></i><b> Stock photography curating </b> to save you
+                  hours of
+                  browsing through and optimizing free (subpar) images</h6>
+              </div>
+              <h4 class="font-work-sans font-weight-normal text-prussian-blue pt-4">STARTING AT $4,990</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-ten" class="bg-platinum p-lg-5">
+    <div class="container py-5">
+      <!-- <h2 class="font-merriweather font-weight-bold text-deep-space-sparkle py-5"> How it works</h2> -->
+      <div class="row py-5 text-deep-space-sparkle">
+        <div class="col-lg-6 col-md-12 col-12 py-3">
 
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 py-3">
+          <h5 class="font-work-sans">CLIENT SUCCESS STORY</h5>
+          <h2 class="font-merriweather font-weight-bold text-middle-red">Stefanie signed 9 new clients within
+            one month of launching her website.</h2>
+          <h5 class="py-3">“Danbee, you beyond exceeded my expectations. It felt like you were holding my hand
+            throughout
+            the entire process and I absolutely LOVE my website."</h5>
+          <h5 class="font-weight-bold">
+            STEFANIE BRIDGES
+          </h5>
+          <h5 class="">
+            ACCOUNTABILITY COACH
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-eleven" class="p-lg-5" data-aos="fade-up">
+    <div class="container-fluid bg-seashell p-5">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 col-12 m-auto py-4 text-deep-space-sparkle">
+          <!-- <h5 class="">NICE WORK!</h5> -->
+          <h2 class="font-merriweather font-weight-bold">How do we get started?</h2>
+          <h5 class=" py-3"> Hop on a quick call with us.</h5>
+          <h5 class=""> Let’s talk about where your business is headed in the next 6 months and how your website can
+            help you hit those goals, pandemic be damned!</h5>
+          <h5 class=" py-3"> If we agree we’re a good fit, we can go ahead and discuss your website launch timeline.
+          </h5>
+          <h5 class=""> Even if we decide this isn’t the right time for us to work together, you’ll walk away with clear
+            next steps for getting more clients with your website.</h5>
+          <a href="" class="btn btn-lg btn-middle-red-to-prussian-blue rounded-0 mt-4 px-5 py-3">BOOK YOUR CALL</a>
+        </div>
+        <div class="col-lg-5 col-md-6 col-12 m-auto py-4">
+          <img src="../assets/media/services/services-begin-900x900.jpg" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-twelve" class="p-lg-5" data-aos="fade-up">
+    <div class="container py-5">
+      <h2 class="font-merriweather font-weight-bold text-deep-space-sparkle text-center py-5"> FAQ</h2>
+      <div class="row text-prussian-blue">
+        <div class="col-lg-6 col-md-12 col-12 py-3">
+          <div id="questions-one" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">Which platform will you use for my website?</h5>
+            <h5>Squarespace. You’ll love Squarespace because it’s flexible, easy to use, and affordable.</h5>
+          </div>
+          <div id="questions-two" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">What costs should I expect other than website design
+              services?</h5>
+            <h5><b>Squarespace:</b> Sign up for the Business plan from Squarespace. This will be an ongoing expense for
+              as long as the website is live. You get a 20% discount on your first year if you work with me!
+            </h5>
+            <h5 class="py-2"><b>Domain:</b> If you purchase your domain from Squarespace, it’s free for your first year.
+              I get my
+              domains from Hover because they’re so easy to work with and protect my privacy for free.
+            </h5>
+            <h5><b>Privacy policy:</b> : If you plan on getting people to sign up for freebies by providing their names
+              and email addresses, this is a legal requirement. I recommend this template (affiliate link) from The
+              Contract Shop.
+            </h5>
+          </div>
+          <div id="questions-three" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">What if I don’t have the money right now?</h5>
+            <h5>Money is personal and I know investment decisions can be difficult. I run a small business, too!
+            </h5>
+            <h5 class="py-2">
+              I’d ask: what if you could get new clients faster and actually make back your investment within a few
+              months?
+            </h5>
+            <h5>
+              Each month that goes by without new clients is another month your business isn’t growing. Doing the same
+              things that aren’t getting you results is more expensive than taking action and fixing your website.
+            </h5>
+          </div>
+          <div id="questions-four" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">What if I’m not sure I’m ready to make this investment?</h5>
+            <h5>Do you have a strong message? A clear niche? Great packages that get results for your clients?</h5>
+            <h5 class="py-2">
+              If you answered “yes” to all three questions, you are ready.
+            </h5>
+            <h5>
+              Need a little extra help getting there? My packages include mini strategy workshoping and I’d love to
+              help. </h5>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 py-3">
+          <div id="questions-five" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">How do I know we’ll make a great team?</h5>
+            <h5>Here’s what my clients love about working with me.</h5>
+            <h5 class="py-2">
+              <ul>
+                <li> They always know what I’m working on.</li>
+                <li> They can rely on me to respond within 1 business day.</li>
+                <li> They feel empowered to take control of their websites.</li>
+                <li> They know I’m committed to helping their businesses succeed.</li>
+              </ul>
+            </h5>
+            <h5>
+              Best way to find out whether we’ll get along? Book a quick call with me so we can get to know each other.
+            </h5>
+          </div>
+          <div id="questions-six" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">Do you offer payment plans?</h5>
+            <h5>Absolutely! The pricing guide includes details about my payment plan and refund policy. You can download
+              it here.</h5>
+          </div>
+          <div id="questions-seven" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">Who owns the content on my new website?</h5>
+            <h5>When I transfer ownership of your new website over to you, I also give you the rights to the
+              intellectual property. You own everything.</h5>
+          </div>
+          <div id="questions-eight" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">Do you offer ongoing support after the project is over?</h5>
+            <h5>Yes, I’d love to continue working with you!</h5>
+            <h5 class="py-2">
+              At the end of the web design project, we can discuss how I can continue to support your business so you
+              can stay in your zone of geniu, working with your clients.</h5>
+          </div>
+          <div id="questions-nine" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">Where are you based?</h5>
+            <h5>I live in Singapore. This puts me in the same time zone as Hong Kong and Perth.
+            </h5>
+            <h5 class="py-2">
+              But don’t worry about time zones. I work with clients from all over the world, from San Diego to Sydney!
+          </div>
+          <div id="questions-eight" class="py-3">
+            <h5 class="font-merriweather font-weight-bold">How soon can we get started?</h5>
+            <h5 class="py-2">My calendar is open for July 2020 and I’m excited to hear from you.</h5>
+            <h5>Book a call so we can talk about how to grow your business!</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-thirteen" class="bg-platinum p-lg-5">
+    <div class="container py-5">
+      <!-- <h2 class="font-merriweather font-weight-bold text-deep-space-sparkle py-5"> How it works</h2> -->
+      <div class="row py-5 text-deep-space-sparkle">
+        <div class="col-lg-6 col-md-12 col-12 py-3">
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 py-3">
+          <h5 class="font-work-sans">CLIENT SUCCESS STORY</h5>
+          <h2 class="font-merriweather font-weight-bold text-middle-red">Stefanie signed 9 new clients within
+            one month of launching her website.</h2>
+          <h5 class="py-3">“Danbee, you beyond exceeded my expectations. It felt like you were holding my hand
+            throughout
+            the entire process and I absolutely LOVE my website."</h5>
+          <h5 class="font-weight-bold">
+            STEFANIE BRIDGES
+          </h5>
+          <h5 class="">
+            ACCOUNTABILITY COACH
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-fourteen" class="p-lg-5" data-aos="fade-up">
+    <div class="container-fluid bg-platinum p-5">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-12 m-auto py-4">
+          <img src="../assets/media/services/services-website-900x900.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-lg-7 col-md-6 col-12 m-auto py-4 text-deep-space-sparkle">
+          <!-- <h5 class="">NICE WORK!</h5> -->
+          <h2 class="font-merriweather font-weight-bold">Get a website that brings you clients.</h2>
+          <h5 class=" py-3"> More than anything, we want to see you with a website that gets you results. If you’re ready, we’d love to build it for you.</h5>
+          <h5 class=""> Book your free 20-minute call and we’ll go from there.</h5>
+          <a href="" class="btn btn-lg btn-middle-red-to-prussian-blue rounded-0 mt-4 px-5 py-3">BOOK YOUR CALL</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   {{ partial "diesmo5mediaFooter" }}
 </main>
 <!-- MAIN END -->

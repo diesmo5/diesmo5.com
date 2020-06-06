@@ -2,48 +2,35 @@
 <!--  -->
 <main class="font-work-sans">
   {{ partial "diesmo5mediaNav" }}
-  <section class="h-100vh">
-    <div class="container pt-20">
-      <h1 class="font-weight-bold hover-graphite-liberty pb-4">GET IN TOUCH</h1>
-      <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        action="/media-services-contact/success"
-      >
-        <p>
-          <input type="text" name="name" placeholder="NAME" class="w-100 p-3" />
-        </p>
-        <p>
-          <input
-            type="email"
-            name="email"
-            placeholder="EMAIL"
-            class="w-100 p-3"
-          />
-        </p>
-        <p>
-          <input
-            type="subject"
-            name="subject"
-            placeholder="SUBJECT"
-            class="w-100 p-3"
-          />
-        </p>
-        <p>
-          <textarea
-            name="message"
-            style="resize: none;"
-            class="w-100 p-3 pb-5"
-          ></textarea>
-        </p>
-        <p>
-          <button type="submit" class="btn btn-lg btn-graphite-liberty rounded-0 px-5">
-            Send
-          </button>
-        </p>
-      </form>
-    </div>
+  <section id="contact-form" class="py-5">
+    <div class="py-5">
+      <div class="py-5">
+        <div class="py-5">
+          <div class="container text-deep-space-sparkle py-5">
+            <h1 class="font-merriweather font-weight-bold pt-5">GET IN TOUCH</h1>
+            <form name="contact" method="POST" data-netlify="true" action="/media-services-contact/success"
+              class="py-5">
+              <p>
+                <input type="text" name="name" placeholder="NAME" class="w-100 p-3" />
+              </p>
+              <p>
+                <input type="email" name="email" placeholder="EMAIL" class="w-100 p-3" />
+              </p>
+              <p>
+                <input type="subject" name="subject" placeholder="SUBJECT" class="w-100 p-3" />
+              </p>
+              <p>
+                <textarea name="message" style="resize: none;" class="w-100 p-3 pb-5"></textarea>
+              </p>
+              <p>
+                <button type="submit" class="btn btn-lg btn-middle-red-to-prussian-blue rounded-0 px-5">
+                  Send
+                </button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
   </section>
   {{ partial "diesmo5mediaFooter" }}
 </main>

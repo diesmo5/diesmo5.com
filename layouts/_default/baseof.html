@@ -10,15 +10,20 @@
   <!-- METADATA END -->
 
   <!-- CSS START -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-
+  <section>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </section>
   <!-- Live CSS -->
   <!-- <link rel="stylesheet" href="../../framework/main.min.css"> -->
   <!-- Development CSS -->
-  <link rel="stylesheet" href="../../framework/main.css">
+  <section>
+    <link rel="stylesheet" href="../../framework/main.css">
+    <link rel="stylesheet" href="../../stylesheets/diesmo5media.css">
+  </section>
   <!-- CSS END -->
 
   <!-- FAVICONS START -->
@@ -68,11 +73,9 @@
   <!-- SCRIPT END -->
 
   <!-- MODAL SCRIPT -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-
-    $('#myModal').on('shown.bs.modal', function () {
-      $('#myInput').trigger('focus')
-    })
+    AOS.init();
   </script>
 </body>
 

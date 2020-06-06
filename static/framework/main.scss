@@ -2,7 +2,7 @@
 // @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
 // @import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500&display=swap");
 // @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400;700&family=Raleway:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Raleway:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap");
 $graphite-light: #252525;
 $graphite: #0b0b0b;
 $graphite-dark: #000000;
@@ -18,7 +18,6 @@ html {
 // NAVBARS
 .navbar-diesmo5 {
     padding: 3vh;
-    background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .navbar-diesmo5-media {
@@ -28,29 +27,32 @@ html {
 }
 .navbar-stadiumeight {
     padding: 3vh;
-    background-image: linear-gradient(#151515, rgba(0,0,0,0));
+    background-image: linear-gradient(#151515, rgba(0, 0, 0, 0));
     // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #ffffff;
 }
 
 // FONT-FAMILY
 .font-montserrat {
-    font-family: "Montserrat", serif;
+    font-family: "Montserrat", sans-serif;
+}
+.font-merriweather {
+    font-family: "Merriweather", serif;
 }
 .font-raleway {
-    font-family: "Raleway", serif;
+    font-family: "Raleway", sans-serif;
 }
 .font-work-sans {
     font-family: "Work Sans", sans-serif;
 }
 .font-lobster {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
 }
 .font-roboto {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 .font-roboto-condensed {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 // TEXT COLORS
 .text-golden {
@@ -128,6 +130,11 @@ button.bg-graphite:focus {
     background-image: url("/assets/stadiumeight/main-hero-3000x2000.jpg");
     width: 100%;
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-image {
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -223,6 +230,9 @@ button.bg-graphite:focus {
 .box-shadow {
     box-shadow: 0px 10px 10px 10px #000000;
 }
+.box-shadow-light {
+    box-shadow: 0px 10px 20px 0px #00000050;
+}
 
 .parallax {
     background-attachment: fixed;
@@ -230,7 +240,6 @@ button.bg-graphite:focus {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 // SPACING
 .h-100vh {

@@ -2,51 +2,104 @@
 <!--  -->
 <main>
   {{ partial "diesmo5mediaNav" }}
-  <section class="bg-graphite text-white h-100vh">
-    <div class="container font-work-sans">
-      <h1 class="font-weight-bold pt-40">OUR PAST PROJECT</h1>
-      <h3 class="font-weight-normal">
-        We create effective strategies, powerful identities, seamless
-        interactions, and memorable experiences to connect people to brands and
-        organizations.
-      </h3>
-    </div>
-  </section>
-  {{ range .Pages }}
-  <section class="pb-5">
-    <div class="container-fluid font-work-sans p-lg-5">
-      <div class="row py-5">
-        <div class="col-lg-6 col-md-6 m-auto text-liberty-dark">
-          <a href="{{.URL}}" class="text-liberty-dark">
-            <div class="hover-zoom">
-              <img
-              src="{{ .Params.projectImage }}"
-              alt="{{ .Params.projectImageAlt }}"
-              class="w-100"
-              />
-            </div>
-            </div>
-            <div class="col-lg-6 col-md-6 py-3 m-auto">
-              <h2 class="font-weight-bold text-uppercase">{{ .Title }}</h2>
-            <h5 class="font-weight-normal ">
-              {{ .Description }}
-            </h5>
-          </a>
-            <a href="{{.URL}}" class="text-liberty-dark">Learn More ></a>
+  <section id="media-portfolio-hero" class="bg-seashell py-5">
+    <div id="padding" class="py-5">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-5 col-md-6 col-12 m-auto py-4">
+            <img src="../assets/media/portfolio/portfolio-hero-800x800.jpg" alt="" class="w-100">
           </div>
+          <div class="col-lg-7 col-md-6 col-12 m-auto py-4">
+            <div class="card rounded-0 text-deep-space-sparkle p-lg-5 p-4">
+              <h1 class="card-title font-merriweather font-weight-bold"> Our past projects</h1>
+              <h4 class="card-text font-weight-normal"> We create effective strategies, powerful identities, seamless
+                interactions, and memorable experiences to connect people to brands and organizations.</h4>
+            </div>
+          </div>
+
         </div>
+      </div>
     </div>
   </section>
-  {{ end }}
-  <section class="h-50vh">
-    <div class="container font-work-sans text-center">
-      <h2 class="font-weight-bold pt-15 pb-4">LET'S MAKE SOMETHING TOGETHER</h2>
-      <a
-        href="/media-services-contact"
-        class="btn btn-graphite rounded-0 px-5 py-3"
-        >CONTACT US</a
-        >
+  <section id="page-section-one" class="p-lg-5">
+    <div class="container p-5">
+      <div class="row bg-seashell my-5 p-4 box-shadow-light" data-aos="fade-up">
+        <div class="col-lg-7 col-md-6 col-12 m-auto text-deep-space-sparkle p-5">
+          <!-- <h5 class="">LET'S JUST SAY IT</h5> -->
+          <h2 class="font-merriweather font-weight-bold">Stadium Eight</h2>
+          <h5 class="font-weight-normal py-3">Media production company creating original releases for emerging
+            technologies
+            and digital networks.</h5>
+          <a href="" class="btn btn-middle-red-to-prussian-blue rounded-0 mt-4 px-5 py-2">SEE PROJECT <i class="far fa-arrow-alt-circle-right"></i></a>
+        </div>
+        <div class="col-lg-5 col-md-6 col-12 m-auto">
+          <img src="../assets/media/portfolio/stadiumeight/stadiumeight-cover-900x900.jpg" alt="" class="w-100">
+        </div>
       </div>
+      <div class="py-3"></div>
+      <div class="row bg-platinum my-5 p-4 box-shadow-light" data-aos="fade-up">
+        <div class="col-lg-5 col-md-6 col-12 m-auto">
+          <img src="../assets/media/portfolio/sudocore/sudocore-cover-900x900.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-lg-7 col-md-6 col-12 m-auto text-deep-space-sparkle p-5">
+          <!-- <h5 class="">LET'S JUST SAY IT</h5> -->
+          <h2 class="font-merriweather font-weight-bold">SudoCore</h2>
+          <h5 class="font-weight-normal py-3">Software development startup company building software that builds the
+            world.</h5>
+          <a href="" class="btn btn-middle-red-to-prussian-blue rounded-0 mt-4 px-5 py-2">SEE PROJECT <i class="far fa-arrow-alt-circle-right"></i></a>
+        </div>
+      </div>
+      <div class="py-3"></div>
+      <div class="row bg-seashell my-5 p-4 box-shadow-light" data-aos="fade-up">
+        <div class="col-lg-7 col-md-6 col-12 m-auto text-deep-space-sparkle p-5">
+          <!-- <h5 class="">LET'S JUST SAY IT</h5> -->
+          <h2 class="font-merriweather font-weight-bold">Green Bubble</h2>
+          <h5 class="font-weight-normal py-3">International non-profit organization dedicated to creating
+            environmentally aware and friendly communities.</h5>
+          <a href="" class="btn btn-middle-red-to-prussian-blue rounded-0 mt-4 px-5 py-2">SEE PROJECT <i class="far fa-arrow-alt-circle-right"></i></a>
+        </div>
+        <div class="col-lg-5 col-md-6 col-12 m-auto">
+          <img src="../assets/media/portfolio/greenbubble/greenbubble-cover-900x900.jpg" alt="" class="w-100">
+        </div>
+      </div>
+      <div class="py-3"></div>
+      <div class="row bg-platinum my-5 p-4 box-shadow-light" data-aos="fade-up">
+        <div class="col-lg-5 col-md-6 col-12 m-auto">
+          <img src="../assets/media/portfolio/hackiloilo/hackiloilo-cover-900x900.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-lg-7 col-md-6 col-12 m-auto text-deep-space-sparkle p-5">
+          <!-- <h5 class="">LET'S JUST SAY IT</h5> -->
+          <h2 class="font-merriweather font-weight-bold">Hack Iloilo</h2>
+          <h5 class="font-weight-normal py-3">Iloilo City, Philippines based event where all university students are
+            welcome to compete in an all-day hackathon aimed at building apps, websites, or games.</h5>
+          <a href="" class="btn btn-middle-red-to-prussian-blue rounded-0 mt-4 px-5 py-2">SEE PROJECT <i class="far fa-arrow-alt-circle-right"></i></a>
+        </div>
+      </div>
+      <div class="py-3"></div>
+      <div class="row bg-seashell my-5 p-4 box-shadow-light" data-aos="fade-up">
+        <div class="col-lg-7 col-md-6 col-12 m-auto text-deep-space-sparkle p-5">
+          <!-- <h5 class="">LET'S JUST SAY IT</h5> -->
+          <h2 class="font-merriweather font-weight-bold">Matt Ullerick</h2>
+          <h5 class="font-weight-normal py-3">Fitness coaching and education for people who want to make lifestyle
+            changes that are aligned with their goals and values.</h5>
+          <a href="" class="btn btn-middle-red-to-prussian-blue rounded-0 mt-4 px-5 py-2">SEE PROJECT <i class="far fa-arrow-alt-circle-right"></i></a>
+        </div>
+        <div class="col-lg-5 col-md-6 col-12 m-auto">
+          <img src="../assets/media/portfolio/mattullerick/mattullerick-cover-900x900.jpg" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-two" class="text-deep-space-sparkle text-center p-5">
+    <div class="container py-5">
+      <div class="col py-5">
+        <h2 class="font-merriweather font-weight-bold">Get a website that <br> brings you clients.</h2>
+        <hr class="bg-middle-red col-1 my-5 py-1">
+        <h3 class="font-raleway">Like what you see here?</h3>
+        <h3 class="font-raleway py-3">Book your free 20-minute call to see how <br> we can work together.</h3>
+        <a href="" class="btn btn-lg btn-middle-red-to-prussian-blue rounded-0 mt-4 px-5 py-3">BOOK YOUR CALL</a>
+      </div>
+    </div>
   </section>
   {{ partial "diesmo5mediaFooter" }}
 </main>

@@ -1,0 +1,111 @@
+:root {
+    --prussian-blue: #11354c;
+    --deep-space-sparkle: #366775;
+    --cadet-grey: #91a6ab;
+    --platinum: #e4e9ea;
+    --seashell: #f5ece9;
+    --middle-red: #ef8f70;
+    --copper-red: #d56d50;
+}
+
+.bg-prussian-blue {
+    background-color: var(--prussian-blue);
+}
+.bg-deep-space-sparkle {
+    background-color: var(--deep-space-sparkle);
+}
+.bg-cadet-grey {
+    background-color: var(--cadet-grey);
+}
+.bg-platinum {
+    background-color: var(--platinum);
+}
+.bg-seashell {
+    background-color: var(--seashell);
+}
+.bg-middle-red {
+    background-color: var(--middle-red);
+}
+.bg-copper-red {
+    background-color: var(--copper-red);
+}
+
+.border-prussian-blue {
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--prussian-blue);
+}
+
+
+.text-prussian-blue {
+    color: var(--prussian-blue);
+}
+.text-deep-space-sparkle {
+    color: var(--deep-space-sparkle);
+}
+a.text-deep-space-sparkle:hover {
+    color: var(--deep-space-sparkle);
+}
+.text-cadet-grey {
+    color: var(--cadet-grey);
+}
+a.text-cadet-grey:hover {
+    color: var(--middle-red);
+    text-decoration: none;
+}
+.text-platinum {
+    color: var(--platinum);
+}
+.text-seashell {
+    color: var(--seashell);
+}
+.text-middle-red {
+    color: var(--middle-red);
+}
+a.text-middle-red:hover {
+    color: var(--copper-red);
+}
+.text-copper-red {
+    color: var(--copper-red);
+}
+
+.btn-middle-red-to-prussian-blue {
+    color: #ffffff;
+    background-color: var(--middle-red);
+}
+
+.btn-middle-red-to-prussian-blue:hover {
+    color: #ffffff;
+    background-color: var(--prussian-blue);
+}
+.btn-cadet-grey-to-middle-red {
+    color: #ffffff;
+    background-color: var(--cadet-grey);
+}
+
+.btn-cadet-grey-to-middle-red:hover {
+    color: #ffffff;
+    background-color: var(--middle-red);
+}
+
+/* NAVBAR SECTION */
+.navbar-brand {
+    color: var(--prussian-blue);
+}
+.navbar-brand:hover {
+    color: var(--copper-red);
+}
+
+.navbar-deep-space-sparkle .navbar-nav .nav-link {
+    color: var(--deep-space-sparkle);
+}
+
+.navbar-deep-space-sparkle .navbar-nav .nav-link:hover,
+.navbar-deep-space-sparkle .navbar-nav .nav-link:focus {
+    color: var(--copper-red);
+}
+
+.navbar-deep-space-sparkle .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
