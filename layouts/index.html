@@ -1,46 +1,90 @@
 {{ define "main" }}
 <!-- MAIN START -->
-{{ partial "navbar" }}
+<main class="font-work-sans">
 
-<section class="bg-diesmo5">
-  <div class="container font-montserrat text-center">
-    <img src="/assets/favicon/favicon.jpg" alt="" class="pt-30 w-25" />
-    <h1 class="font-weight-light text-9 pt-4">DIESMO5</h1>
-    <!-- <h3 class="">A parent company.</h3> -->
-  </div>
-</section>
-<section class="bg-diesmo5-media">
-  <div class="container font-work-sans text-center text-white">
-    <h1 class="text-9 pt-30">
-      <b class="font-weight-bold">DIESMO5</b>
-      <l class="font-weight-light">MEDIA</l>
-    </h1>
-    <h5 class="font-weight-normal pt-4 pb-5">
-      A full service digital agency built for the now.
-    </h5>
-    <a href="/media" class="btn btn-outline-light rounded-0 px-5 py-3"
-      >Visit <b class="font-weight-bold">DIESMO5</b>
-      <l class="font-weight-light">MEDIA</l></a
-    >
-  </div>
-</section>
-<!-- <section class="bg-stadium-eight">
-  <div class="container font-raleway text-center text-white">
-    <h1 class="text-9 pt-30">
-      <b class="font-weight-light">STADIUM</b>
-      <l class="font-weight-bold">EIGHT</l>
-    </h1>
-    <h5 class="font-weight-normal pt-4 pb-5">
-      A production company creating original releases for emerging technologies
-      and digital networks.
-    </h5>
-    <a href="/stadiumeight" class="btn btn-outline-light rounded-0 px-5 py-3"
-      >Visit <b class="font-weight-light">STADIUM</b>
-      <l class="font-weight-bold">EIGHT</l></a
-    >
-  </div>
-</section> -->
+  {{ partial "navbar" }}
+  <section id="media-hero" class="pt-5">
+    <div id="padding" class="pt-5">
+      <div class="pt-5">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../assets/diesmo5/light-blue-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/diesmo5/dark-blue-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/diesmo5/purple-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/diesmo5/pink-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/diesmo5/red-orange-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/diesmo5/orange-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/diesmo5/yellow-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/diesmo5/green-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/diesmo5/teal-hero-1280x720.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-section-one" class="bg-light text-dark text-center p-5">
+    <div class="container">
+      <div class="">
+        <h2 class="font-weight-bold">Meet</h2>
+        <h1 class="display-4 font-weight-bold">DIESMO5</h1>
+        <h6 class="text-left py-2">DIESMO5 is a parent company to multiple companies in specializing in software
+          development,
+          app development, web design, online education, esports, and philanthropy.</h6>
+        <h6 class="text-left py-2">Our core principles stem from our fundamental beliefs in education and software. As a
+          two-fold manifesto we believe that education is the key towards progress. Because of this we believe in
+          creating a culture where we are continuously learning as well as educating our clients, customers, and family.
+        </h6>
+        <h6 class="text-left py-2">Also, we believe that the world ahead of us will surely revolve around software and
+          hardware connected and integrated into every aspect of our lives. This belief has inspired us to make steps
+          towards educating youth around the globe in the field of computer science and computer engineering. Our
+          products and services also reflect these beliefs, because we focus on empowering others to build their
+          businesses, create apps, websites, games, and help them follow their passion.</h6>
+        <hr class="bg-dark col-1 my-5 py-1">
+      </div>
+  </section>
+  <section id="page-section-two" class="text-dark text-center p-5">
+    <div class="container">
+      <div class="">
+        <h2 class="font-weight-bold">Welcome to the </h2>
+        <h1 class="display-4 font-weight-bold">DIESMO5 FAMILY</h1>
+        <div class="row text-left">
+          {{ range $.Site.Data.diesmo5FamilyList }}
+          <div class="col-lg-6 col-12 py-5">
+            <a href="/{{ .programName }}" class="text-dark text-decoration-none">
+              <div class="row">
+                <div class="col-3"><img src="{{ .programIcon }}" alt="" class="w-100"></div>
+                <div class="col-9">
+                  <h2 class="text-uppercase text-{{ .programName }}-gradient"><b>DIESMO5</b> {{ .programName }}</h2>
+                  <h5 class="font-weight-bold">{{ .programNiche }}</h5>
+                  <h6 class="">{{ .programDescription }}</h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+  </section>
 
-{{ partial "footer" }}
+  {{ partial "footer" }}
+</main>
 <!-- MAIN END -->
 {{ end }}

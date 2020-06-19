@@ -1,5 +1,5 @@
 ---
-title: "Diesmo5 Privacy Policy"
+title: "diesmo5 Privacy Policy"
 date: 2020-03-26T20:43:32-07:00
 draft: false
 description:

@@ -1,5 +1,5 @@
 ---
-title: "Diesmo5 Terms and Conditions"
+title: "diesmo5 Terms and Conditions"
 date: 2020-03-26T20:43:50-07:00
 draft: false
 description:

@@ -1,0 +1,27 @@
+.navbar-diesmo5 {
+    padding: 3vh;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-media-gradient {
+    background: -webkit-linear-gradient(#EF8F70, #D56D50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-labs-gradient {
+    background: -webkit-linear-gradient(#9ED804, #1BC3A9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-polaris-gradient {
+    background: -webkit-linear-gradient(#00FFF0, #0047FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-gaming-gradient {
+    background: -webkit-linear-gradient(#BD00FF, #6C00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

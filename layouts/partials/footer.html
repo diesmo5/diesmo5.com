@@ -1,0 +1,149 @@
+<footer class="bg-light pt-5">
+    <div class="container">
+        <div class="row pb-3">
+            <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Today @DIESMO5</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        {{ range $.Site.Data.nav.new}}
+                        <li class="list-unstyled">
+                            <a href="{{.navUrl}}" rel="noopener" rel="noreferrer" target="_blank"
+                                class="text-graphite">{{.navTitle}}</a>
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            </div>
+            <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Media</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        <li class="list-unstyled">
+                            <a href="/media" target="_blank" class="text-dark text-decoration-none">D5 Media</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="/media-services" target="_blank"
+                                class="text-dark text-decoration-none">Services</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="/media-portfolio" target="_blank"
+                                class="text-dark text-decoration-none">Portfolio</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="/media-book" target="_blank"
+                                class="text-dark text-decoration-none">Consultations</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Labs</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        {{range $.Site.Data.nav.education}}
+                        <li class="list-unstyled">
+                            <a href="/{{.navUrl}}" class="text-graphite">{{.navTitle}}</a>
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            </div>
+            <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Polaris</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        {{range $.Site.Data.nav.enterprise}}
+                        <li class="list-unstyled">
+                            <a href="/{{.navUrl}}" class="text-graphite">{{.navTitle}}</a>
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            </div>
+            <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Gaming</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        <li class="list-unstyled">
+                            <a href="https://stadiumeight.com" rel="noopener" rel="noreferrer" target="_blank"
+                                class="text-dark text-decoration-none">Stadium Eight</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Foundation</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        {{range $.Site.Data.nav.collaborate}}
+                        <li class="list-unstyled">
+                            <a href="{{.navUrl}}" class="text-graphite">{{.navTitle}}</a>
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            </div>
+            <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Social</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        {{range $.Site.Data.nav.media}}
+                        <li class="list-unstyled">
+                            <a href="/{{.navUrl}}" class="text-graphite">{{.navTitle}}</a>
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Locations</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        {{range $.Site.Data.nav.locations}}
+                        <li class="list-unstyled">
+                            <a href="/{{.navUrl}}" class="text-graphite">{{.navTitle}}</a>
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            </div> -->
+            <div class="p-3 col-lg-3 col-md-4 col-12">
+                <h6 class="">Company</h6>
+                <div class="">
+                    <ul class="list-unstyled">
+                        {{range $.Site.Data.nav.company}}
+                        <li class="list-unstyled">
+                            <a href="/{{.navUrl}}" class="text-graphite">{{.navTitle}}</a>
+                        </li>
+                        {{end}}
+                        <li class="list-unstyled">
+                            <a href="/news" class="text-dark text-decoration-none">News</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="/about" class="text-dark text-decoration-none">About</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="/careers" class="text-dark text-decoration-none">Careers</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="/policy/diesmo5-privacy-policy/" target="_blank" class="text-dark text-decoration-none">Privacy Policy</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="/policy/diesmo5-terms-and-conditions/" target="_blank" class="text-dark text-decoration-none">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-end">
+            {{range $.Site.Data.nav.essential}}
+            <a href="/{{.navUrl}}" class="text-graphite px-1">{{.navTitle}}</a>
+            {{end}}
+        </div>
+        <div class="row justify-content-end py-1">
+            <p href="" class="text-graphite px-1">&copy; 2016 - 2020, DIESMO5 - All Rights Reserved</p>
+        </div>
+    </div>
+</footer>

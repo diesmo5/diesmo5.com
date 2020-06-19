@@ -1,0 +1,20 @@
+1-media:
+  programName: media
+  programNiche: Marketing. Web Design. Consultations.
+  programDescription: Building websites to help entrepreneurs and business owners grow their digital presence and increase their funnel.
+  programIcon: ../assets/media/logo/favicon-1080x1080.png
+3-labs:
+  programName: labs
+  programNiche: Venture Capital.
+  programDescription: Supporting startups and entrepreneurs in building software or hardware products and services for consumers and businesses. 
+  programIcon: ../assets/labs/1080x1080.png
+3-polaris:
+  programName: polaris
+  programNiche: Learning. Coding. IoT. AI.
+  programDescription: Providing educational resources, courses, and event for students, schools, and non-profit organizations who are dedicated in learning to code.  
+  programIcon: ../assets/polaris/logo/1080x1080.png
+4-gaming:
+  programName: gaming
+  programNiche: Marketing. Web Design. Consultations.
+  programDescription: Building websites to help entrepreneurs and business owners grow their digital presence and increase their funnel.
+  programIcon: ../assets/stadiumeight/logo/diamond-1080x1080.png
