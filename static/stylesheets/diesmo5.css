@@ -20,8 +20,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.text-gaming-gradient {
-    background: -webkit-linear-gradient(#BD00FF, #6C00FF);
+.text-network-gradient {
+    background: -webkit-linear-gradient(#494949, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
