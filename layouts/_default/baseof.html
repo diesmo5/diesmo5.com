@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- METADATA START -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{.Description}}" />
+    <title>{{ if .Title }} {{ .Title }} | {{ end }} DIESMO5</title>
+    <!-- METADATA END -->
 
-<head>
-  <!-- METADATA START -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="{{.Description}}" />
-  <title>{{ if .Title }} {{ .Title }} | {{ end }} DIESMO5</title>
-  <!-- METADATA END -->
-
-  <!-- CSS START -->
-  <section>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  </section>
-  <!-- Live CSS -->
-  <!-- <link rel="stylesheet" href="../../framework/main.min.css"> -->
-  <section>
-    <link rel="stylesheet" href="../../framework/main.min.css">
-    <link rel="stylesheet" href="../../stylesheets/diesmo5media.min.css">
-    <link rel="stylesheet" href="../../stylesheets/diesmo5.min.css">
-  </section>
-  <!-- Development CSS -->
-  <!-- <section>
+    <!-- CSS START -->
+    <section>
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+        crossorigin="anonymous"
+      />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    </section>
+    <!-- Live CSS -->
+    <!-- <link rel="stylesheet" href="../../framework/main.min.css"> -->
+    <section>
+      <link rel="stylesheet" href="../../framework/main.min.css" />
+      <link rel="stylesheet" href="../../stylesheets/diesmo5media.min.css" />
+      <link rel="stylesheet" href="../../stylesheets/diesmo5.min.css" />
+    </section>
+    <!-- Development CSS -->
+    <!-- <section>
     <link rel="stylesheet" href="../../framework/main.css">
     <link rel="stylesheet" href="../../stylesheets/diesmo5media.css">
     <link rel="stylesheet" href="../../stylesheets/diesmo5.css">
   </section> -->
-  <!-- CSS END -->
+    <!-- CSS END -->
 
-  <!-- FAVICONS START -->
-  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/180x180.png" />
+    <!-- FAVICONS START -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/180x180.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
@@ -41,48 +48,56 @@
   <meta name="msapplication-TileColor" content="#9f00a7" />
   <meta name="theme-color" content="#ffffff" />
   <link rel="shortcut icon" href="../../assets/favicon/favicon.png" type="image/x-icon" />
-  <!-- FAVICONS END -->
+    <!-- FAVICONS END -->
 
-  <!-- ANALYTICS START -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150415761-1"></script>
-  <script id="mcjs">
-    !(function (c, h, i, m, p) {
-      (m = c.createElement(h)),
-        (p = c.getElementsByTagName(h)[0]),
-        (m.async = 1),
-        (m.src = i),
-        p.parentNode.insertBefore(m, p);
-    })(
-      document,
-      "script",
-      "https://chimpstatic.com/mcjs-connected/js/users/a0f3186838415a0e37a8dc337/b10e2f13054db41529f2472b2.js"
-    );
-  </script>
-  <!-- ANALYTICS END -->
-</head>
+    <!-- ANALYTICS START -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150415761-1"
+    ></script>
+    <script id="mcjs">
+      !(function (c, h, i, m, p) {
+        (m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          p.parentNode.insertBefore(m, p);
+      })(
+        document,
+        "script",
+        "https://chimpstatic.com/mcjs-connected/js/users/a0f3186838415a0e37a8dc337/b10e2f13054db41529f2472b2.js"
+      );
+    </script>
+    <!-- ANALYTICS END -->
+  </head>
 
-<body style="overflow-x: hidden;">
-  <!-- MAIN START -->
-  {{ block "main" . }} {{ end }}
-  <!-- MAIN END -->
+  <body style="overflow-x: hidden;">
+    <!-- MAIN START -->
+    {{ block "main" . }} {{ end }}
+    <!-- MAIN END -->
 
-  <!-- SCRIPT START -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <!-- SCRIPT END -->
+    <!-- SCRIPT START -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- SCRIPT END -->
 
-  <!-- MODAL SCRIPT -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+    <!-- MODAL SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

@@ -1,0 +1,25 @@
+.text-media-gradient {
+    background: -webkit-linear-gradient(#EF8F70, #D56D50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-labs-gradient {
+    background: -webkit-linear-gradient(#9ED804, #1BC3A9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-polaris-gradient {
+    background: -webkit-linear-gradient(#00FFF0, #0047FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-network-gradient {
+    background: -webkit-linear-gradient(#494949, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+// TEXT SIZE
+.text-small {
+    font-size: 9px;
+}

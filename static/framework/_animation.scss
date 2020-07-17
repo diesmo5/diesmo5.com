@@ -1,0 +1,36 @@
+// ANIMATIONS
+.hover-zoom {
+    /* height: 300px; [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.hover-zoom img {
+    transition: transform 0.5s ease;
+}
+.hover-zoom:hover img {
+    transform: scale(1.2);
+}
+.hover-graphite-liberty {
+    color: $graphite;
+    &:hover {
+        color: $liberty;
+        transition-duration: 0.5s;
+    }
+}
+.hover-box-shadow {
+    box-shadow: none;
+}
+.hover-box-shadow:hover {
+    box-shadow: 0px 10px 10px 10px #00000090;
+}
+.box-shadow {
+    box-shadow: 0px 10px 10px 10px #000000;
+}
+.box-shadow-light {
+    box-shadow: 0px 10px 20px 0px #00000050;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,41 @@
+// BACKGROUND COLORS
+.bg-white {
+    background-color: $white !important;
+}
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.bg-graphite-light {
+    background-color: $graphite-light !important;
+}
+a.bg-graphite-light:hover,
+a.bg-graphite-light:focus,
+button.bg-graphite-light:hover,
+button.bg-graphite-light:focus {
+    background-color: $graphite !important;
+}
+.bg-graphite {
+    background-color: $graphite !important;
+}
+.bg-graphite-dark {
+    background-color: $graphite-dark !important;
+}
+a.bg-graphite:hover,
+a.bg-graphite:focus,
+button.bg-graphite:hover,
+button.bg-graphite:focus {
+    background-color: $graphite-dark !important;
+}
+
+.bg-diesmo5 {
+    /* background-image: url("/assets/diesmo5/diesmo5-corporate-bg-1500x900.jpg"); */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}

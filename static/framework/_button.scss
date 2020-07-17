@@ -1,0 +1,61 @@
+// BUTTONS
+.btn-graphite {
+    color: $white;
+    background-color: $graphite;
+    border-color: $graphite;
+    &:hover {
+        color: $white;
+        background-color: $graphite-dark;
+        border-color: $graphite-dark;
+    }
+}
+.btn-golden {
+    background-color: #be8900;
+    color: #ffffff;
+}
+.btn-golden:hover {
+    background-color: #b17f02;
+    color: #ffffff;
+}
+.btn-graphite-light {
+    color: $white;
+    background-color: $graphite-light;
+    border-color: $graphite-light;
+    &:hover {
+        color: $white;
+        background-color: $graphite;
+        border-color: $graphite;
+    }
+}
+.btn-outline-graphite {
+    color: $graphite;
+    background-color: $transparent;
+    border-color: $graphite;
+    &:hover {
+        color: $white;
+        background-color: $graphite;
+        border-color: $graphite;
+    }
+}
+.btn-outline-graphite-light {
+    color: $graphite-light;
+    background-color: $transparent;
+    border-color: $graphite-light;
+    &:hover {
+        color: $white;
+        background-color: $graphite-light;
+        border-color: $graphite-light;
+    }
+}
+
+.btn-graphite-liberty {
+    color: $white;
+    background-color: $graphite;
+    border-color: $graphite;
+    &:hover {
+        color: $white;
+        background-color: $liberty;
+        transition-duration: 0.5s;
+        border-color: $liberty;
+    }
+}
