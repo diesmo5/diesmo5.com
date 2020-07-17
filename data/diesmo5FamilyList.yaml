@@ -13,8 +13,8 @@
   programNiche: Learning. Coding. IoT. AI.
   programDescription: Providing educational resources, courses, and event for students, schools, and non-profit organizations who are dedicated in learning to code.  
   programIcon: ../assets/polaris/logo/1080x1080.png
-4-gaming:
-  programName: network
-  programNiche: ESports. Entertainment. Podcasts.
-  programDescription: Entertaining viewers from around the world with original content in the world of esports, short films, and podcasts.
-  programIcon: ../assets/network/logo/diamond-1080x1080.png
+# 4-gaming:
+#   programName: network
+#   programNiche: ESports. Entertainment. Podcasts.
+#   programDescription: Entertaining viewers from around the world with original content in the world of esports, short films, and podcasts.
+#   programIcon: ../assets/network/logo/diamond-1080x1080.png
