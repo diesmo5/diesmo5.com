@@ -8,7 +8,7 @@ key: stadiumeight
 clientDomain: stadiumeight.com
 clientType: National ESports League
 
-testimonial: “I feel free to concentrate on the work of reaching out to my audience and helping my clients. You really took the time to understand who I am, and therefore, what my business is here to do. You took a genuine interest in my goals to help people, and worked with me to gently bring out things about my brand that I was unable to articulate on my own. You have a wealth of knowledge from your different life experiences, which I appreciate. Your perspective is very valuable to health coaches like me.”
+testimonial: “My team and I feel free to concentrate on the work of reaching out to our audience and catering to the needs of our players and sponsors. Your team really took the time to understand who I am and what we're trying to do here at Stadium Eight. You took a genuine interest in our goal to build an ESports league, and work with me to bring out traits about my brand that I was unable to articulate on my own.”
 
 
 clientGoal: "Anton’s project was a startup endeavor to build a national esports league. He had spent months preparing games and acquiring sponsors but never really had the opportunity to create a website himself. He was ready for a website that acurately reflected the brand of Stadium Eight but also had practical applications so that is updated according to their needs throughout each season. He also wanted a website that’s easy to update so that adding new content, upcoming events, and matchups would no longer feel overwhelming. And of course, he wanted his new website to help him attract more players, coaches, and sponsors."
@@ -23,25 +23,15 @@ brandDescription: "The primary logo is bold  and unique, just like the work Stad
 
 stockDescription: "She and I also worked together to ensure that her stock photo collection was consistent with our shared value of fostering diverse and inclusive communities. We used images that accurately and realistically reflects Meredith’s audience. Anton wanted her brand personality to match the gaming culture of dark colors with light neon-like accents. This is what I used to anchor the stock photography. We worked together to ensure that her stock photo collection"
 
-websiteDescription: "We identified 5 main elements for Meredith’s website:
+websiteDescription: "We focused on making sure the website did more than establish Stadium Eight's brand presence but also empower the website to act as a tool and resource for admin, team captain, players, and audience members."
 
-     1. Core pages: home, about, and work with me
+resultsDescription: "Stadium Eight has now completed its first season and we have continually made new iterations of the website as new programs, resources, and content were being added for the organization."
 
-     2. Email opt-in and lead magnet
-
-     3. Blog
-
-     4. Sales pages
-
-     5. Online course"
-
-resultsDescription: "It’s early days, as we’ve just launched Meredith’s new website. But she’s already feeling the immediate boost of a brand new website that feels like her brand. She’s…"
-
-resultOne: Completely relaxed when it comes to her website (goodbye, overwhelm!)
+resultOne: Completely relaxed when it comes to his website (goodbye, overwhelm!)
 resultOneIcon: fas fa-leaf
-resultTwo: Confident about inviting people to learn about how she can help because she feels proud of her business
+resultTwo: Confident about inviting sponsors to help support his growing pool od athletes and teams. 
 resultTwoIcon: fas fa-user-plus
-resultThree: Focused on creating valuable offers that will make a difference in her clients’ lives
+resultThree: Focused on creating valuable offers that will make a difference in his athletes' careers.
 resultThreeIcon: fas fa-plane
 ---
 
