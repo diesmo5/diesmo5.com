@@ -5,6 +5,8 @@ draft: false
 description: "Anton Ciocon is the President and CEO of Stadium Eight. Through Stadium Eight, students across the United States compete and showcase their skills and abilities. Anton’s leadership experience at non-profit organizations and competitive gaming allows him to connect with and coach gamers from different backgrounds. He believes in taking a holistic approach to gaming and esports to help players make changes in their environment, mindset, movement and nutrition in a way that is aligned with their passions and intuition."
 
 key: stadiumeight
+clientName: Anton Ciocon
+clientTitle: CHIEF EXECUTIVE OFFICER
 clientDomain: stadiumeight.com
 clientType: National ESports League
 

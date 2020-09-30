@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<!--  -->
+<main class="font-work-sans">
+    {{ partial "navbar" }}
+    <section id="contact-form" class="py-5">
+          <div class="container text-network-gradient py-5">
+            <h1 class="font-montserrat font-weight-bold pt-5">GET IN TOUCH</h1>
+            <form name="contact" method="POST" data-netlify="true" action="/media-services-contact/success"
+              class="py-5">
+              <p>
+                <input type="text" name="name" placeholder="NAME" class="w-100 p-3" />
+              </p>
+              <p>
+                <input type="email" name="email" placeholder="EMAIL" class="w-100 p-3" />
+              </p>
+              <p>
+                <input type="subject" name="subject" placeholder="SUBJECT" class="w-100 p-3" />
+              </p>
+              <p>
+                <textarea name="message" style="resize: none;" class="w-100 p-3 pb-5"></textarea>
+              </p>
+              <p>
+                <button type="submit" class="btn btn-lg btn-graphite-light rounded-0 px-5">
+                  Send
+                </button>
+              </p>
+            </form>
+  </section>
+  {{ partial "footer" }}
+</main>
+
+{{ end }}
